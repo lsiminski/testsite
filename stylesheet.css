@@ -158,15 +158,18 @@ top: 50%;
 
 .gallery {
   background: #EEE;
+  width: 50%;
 }
 
 .gallery img {
   display: block;
-  height: 800px;
+  height: 1000px;
 }
 
+/*
 @media screen and ( min-width: 768px ) {
   .gallery img {
     height: 300px;
   }
 }
+*/

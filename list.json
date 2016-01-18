@@ -1,16 +1,12 @@
-{
-    "strategies": [
-        {
-            "strategy": "https://images.unsplash.com/photo-1446797376004-9352dfc9f789?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9bec7836e7dc0a09f6a41d901a4e7a22"
-        },
-        {
-            "strategy": "https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9a5f9deea2b4c2c1eeaf84265913f20f"
-        },
-        {
-            "strategy": "https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c1215e6c694118918793a9f0149819f"
-        },
-        {
-            "strategy": "https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e7d757a5f131aa2fcaa01e41757b9165"
-        },
-    ]
-}
+[
+    {
+        "strategy": "1-1",
+        "image": "https://images.unsplash.com/photo-1446797376004-9352dfc9f789?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9bec7836e7dc0a09f6a41d901a4e7a22",
+        "background": "workout"
+    },
+    {
+        "strategy": "1-2",
+        "image": "https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9a5f9deea2b4c2c1eeaf84265913f20f",
+        "background": "notes"
+    },
+]

@@ -4,8 +4,7 @@ $.getJSON('list.json', function(data) {
   console.log(randomStrategy.strategy);
   $("#list_strategies p").text(randomStrategy.strategy);
 
-  $.each(data.strategies, function(data) {
-    $('#fulllist').append('<li class="strategy"><p>' + this["strategy"] + '</p></li>');
+  $.each(data, function(data) {
     $("body.random").css("background-image","url(" + this.image + ")");
   });
     

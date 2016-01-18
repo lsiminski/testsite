@@ -1,4 +1,4 @@
-$.getJSON('BGphotos.json', function(data) { 
+$.getJSON('list.json', function(data) { 
     
   var randomBGphoto = data.BGphotos[Math.floor(Math.random()*data.BGphotos.length)];
   console.log(randomBGphoto.BGphoto);

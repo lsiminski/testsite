@@ -1,8 +1,8 @@
 $.getJSON('list.json', function(data) { 
     
-  var randomStrategy = data.strategies[Math.floor(Math.random()*data.strategies.length)];
-  console.log(randomStrategy.strategy);
-  $("#list_strategies p").text(randomStrategy.strategy);
+  var random = data[Math.floor(Math.random()*data.length)];
+  console.log(random.background-image);
+  $("#list_strategies p").text(random.background-image);
 
   $.each(data, function(data) {
     $("body.random").css("background-image","url(" + this.image + ")");

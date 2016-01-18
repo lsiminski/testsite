@@ -1,15 +1,16 @@
 $.getJSON('list.json', function(data) { 
     
-  var randombackground-image = data.BGphotos[Math.floor(Math.random()*data.BGphotos.length)];
-  console.log(randomBGphoto.background-image);
+  var randomStrategy = data.strategies[Math.floor(Math.random()*data.strategies.length)];
+  console.log(randomStrategy.strategy);
+  $("#list_strategies p").text(randomStrategy.strategy);
 
-  $.each(data.BGphotos, function(data) {
+  $.each(data.strategies, function(data) {
+    $('#fulllist').append('<li class="strategy"><p>' + this["strategy"] + '</p></li>');
     $("body.random").css("background-image","url(" + this.image + ")");
   });
     
 });
 
-$('#BGphotos_background-image').click(function() {
+$('#list_strategies').click(function() {
   document.location.reload(true);
 });
-

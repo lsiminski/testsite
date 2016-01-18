@@ -140,6 +140,7 @@ top: 50%;
 	margin: 0;
 }
 
+/*
 .gallery {
 	height: 50%;
 }
@@ -147,4 +148,25 @@ top: 50%;
 .gallery img {
 	width: 100%;
 	height: auto;
+}
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery img {
+  display: block;
+  height: 800px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .gallery img {
+    height: 300px;
+  }
 }

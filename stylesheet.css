@@ -154,7 +154,7 @@ text-align: center;
 
 .gallery img {
 	width: 80%;
-	height: auto;
+	/* height: auto; */
 	/*
 text-align: center;
 	position: fixed;

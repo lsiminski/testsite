@@ -109,11 +109,11 @@ a:hover {
 	opacity: .5;
 }
 
-/*
 .container {
-	font-family: 'oregonregular', Arial, sans-serif;
+	font-family: 'Montserrat';
+	width: 70%;
 	color: white;
-	font-size: 70px;
+	font-size: 12px;
 	text-align: center;
 	position: fixed;
 	top: 50%;
@@ -121,6 +121,27 @@ a:hover {
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%); 
-	padding-bottom: 40px;
 }
-*/
+
+.projects ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.projects li {
+	display: inline;
+}
+
+.projects li + li {
+	/* padding-left: 2px */;
+}
+
+.projects ul img {
+	width: 24.7%;
+	height: auto;
+	padding: 0 0 1px 0;
+	margin: 0;
+}
+
+

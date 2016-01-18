@@ -25,12 +25,14 @@ body {
 }
 
 a {
+	opacity: 1;
+	transition: all .5s ease;
 	text-decoration: none;
 	color: #5B5B5B;
 }
 
 a:hover {
-	
+	opacity: .6;
 }
 
 .logo {
@@ -73,17 +75,6 @@ a:hover {
 	padding-right: 10px;
 }
 
-.links a {
-	opacity: 1;
-	transition: all .5s ease;
-}
-
-.links a:hover {
-	opacity: .85;
-	border-bottom: 6px solid black;
-	padding-bottom: 5px;
-}
-
 .socialmedia {
 	position: fixed;
 	right: 50px;
@@ -98,15 +89,6 @@ a:hover {
 
 .socialmedia li {
 	margin-top: 10px;
-}
-
-.socialmedia a {
-	opacity: 1;
-	transition: all .5s ease;
-}
-
-.socialmedia a:hover {
-	opacity: .5;
 }
 
 .container {
@@ -131,10 +113,6 @@ a:hover {
 
 .projects li {
 	display: inline;
-}
-
-.projects li + li {
-	/* padding-left: 2px */;
 }
 
 .projects ul img {

@@ -137,18 +137,18 @@ a:hover {
 	margin: 0;
 }
 
-/*
 .gallery {
 	position: relative;
 	text-align: center;
-	top: 50%;
+	/*
+top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);
+*/
 	margin: 0 auto;
 }
-*/
 
 .gallery img {
 	width: 100%;

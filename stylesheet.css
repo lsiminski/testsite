@@ -107,7 +107,7 @@ a:hover {
 
 .container-2 {
 	font-family: 'Montserrat';
-	width: 70%;
+	width: 60%;
 	color: white;
 	font-size: 12px;
 	text-align: center;
@@ -170,7 +170,7 @@ position: fixed;
 
 .gallery img {
   display: block;
-  height: 400px;
+  height: 500px;
 }
 
 /*

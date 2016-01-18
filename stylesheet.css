@@ -91,7 +91,7 @@ a:hover {
 	margin-top: 10px;
 }
 
-.container {
+.container-1 {
 	font-family: 'Montserrat';
 	width: 70%;
 	color: white;
@@ -103,6 +103,22 @@ a:hover {
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%); 
+}
+
+.container-2 {
+	font-family: 'Montserrat';
+	width: 70%;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	/*
+top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%); 
+*/
 }
 
 .projects ul {
@@ -120,6 +136,11 @@ a:hover {
 	height: auto;
 	padding: 0 0 1px 0;
 	margin: 0;
+}
+
+.gallery img {
+	width: 80%;
+	height: auto;
 }
 
 

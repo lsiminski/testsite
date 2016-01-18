@@ -111,7 +111,7 @@ a:hover {
 	height: 60%;
 	color: white;
 	font-size: 12px;
-	position: absolute;
+	/* position: absolute; */
 	text-align: center;
 	margin: 0 auto;
 	/*
@@ -138,6 +138,10 @@ top: 50%;
 	height: auto;
 	padding: 0 0 1px 0;
 	margin: 0;
+}
+
+.gallery {
+	height: 50%;
 }
 
 .gallery img {

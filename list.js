@@ -1,15 +1,18 @@
 $.getJSON('list.json', function(data) { 
-    
-  var random = data[Math.floor(Math.random()*data.length)];
-  console.log(random.background-image);
-  $("#list_strategies p").text(random.background-image);
 
+  var d = new Date();
+  var mo = d.getMonth();
+  var da = d.getDate ();
+  var moda = mo + 1 +"-" + da;
+    
   $.each(data, function(data) {
-    $("body.random").css("background-image","url(" + this.image + ")");
+	  if ( this.date === moda ) {
+		  $("#list_name p").html("<a href='" + this.url + "' target=blank>" + this.name + "</a>");
+		  $("#list_day p").text(this.day);
+		  $("#list_category p").text(this.category);
+		  $("body.random").css("background-image","url(" + this.image + ")");
+	  } else {
+	  }
   });
     
-});
-
-$('#list_strategies').click(function() {
-  document.location.reload(true);
 });

@@ -117,6 +117,7 @@ a:hover {
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%); 
+	padding-bottom: 50px;
 }
 
 .projects ul {
@@ -146,6 +147,15 @@ a:hover {
 	height: auto;
 }
 */
+
+h1 {
+	color: black;
+	font-size: 13px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	font-weight: 700;
+}
 
 * {
   -webkit-box-sizing: border-box;

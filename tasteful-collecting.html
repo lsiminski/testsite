@@ -16,6 +16,7 @@
 		
 		<!-- LINKS -->
 		<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="flickity.css" media="screen">
 		
 		<!-- FAVICON -->
 		<link rel="icon" type="image/png" href="http://i61.tinypic.com/205a9vt.png" />
@@ -29,7 +30,7 @@
 	<body>
     	
     	<div class="logo">
-    		<a href="index.html"><img src="http://s15.postimg.org/aslt5iym3/image.gif"></a>
+    		<img src="http://s15.postimg.org/aslt5iym3/image.gif">
     	</div>
     	
     	<div class="links">
@@ -50,25 +51,38 @@
 			</ul>
 		</div>
     	
-    	<div class="container-1">
-    		<div class="projects">
-				<ul>
-				<li><a href="project-tamed.html"><img src="http://i68.tinypic.com/29feceg.jpg"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1300/1300"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1400/1400"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/900/900"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1100/1100"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1000/1000"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1200/1200"></a></li>
-				<li><a href="project.html"><img src="http://www.placecage.com/g/1300/1300"></a></li>
-				</ul>
+    	<div class="container-2">
+    		<div class="gallery js-flickity"
+				data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
+				<img src="http://i63.tinypic.com/14xch81.jpg"/>
+				<img src="http://i65.tinypic.com/2wcmxxg.jpg"/>
+				<img src="http://i65.tinypic.com/14aej38.jpg"/>
+				<img src="http://i64.tinypic.com/2ibfhjn.jpg"/>
+				<!--
+<img src=""/>
+				<img src=""/>
+-->
+				<img src="http://i67.tinypic.com/52fj41.jpg"/>
+			</div>
+    	
+    	
+    	
+    	
+    		<!--
+<div class="gallery js-flickity">
+				<div class="gallery-cell"><a href="project.html"><img src="http://i64.tinypic.com/6pne5s.jpg"></a></div>
+				<div class="gallery-cell"><a href="project.html"><img src="http://i65.tinypic.com/20ab41s.jpg"></a></div>
+				<div class="gallery-cell"><a href="project.html"><img src="http://i64.tinypic.com/34xfkna.jpg"></a></div>
+				<div class="gallery-cell"><a href="project.html"><img src="http://i65.tinypic.com/34xgchx.jpg"></a></div>
     		</div>
+-->
 		</div>
 
 		<!-- PROBABLY IMPORTANT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script src="list.js"></script>
+		<script src="flickity.pkgd.min.js"></script>
 
   </body>
 

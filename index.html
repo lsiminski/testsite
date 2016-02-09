@@ -59,7 +59,8 @@
 			  console.log(data.bgImages.length);    
 			  var randomImage = data.bgImages[Math.floor(Math.random()*data.bgImages.length)];
 			  console.log(randomImage);
-			  $("body.random").addClass('done').css('background-image', randomImage.src);
+			  var bgImage = randomImage.src;
+			  $("body.random").addClass('done').css( "background-image", bgImage );
 			       
 			});
 		</script>

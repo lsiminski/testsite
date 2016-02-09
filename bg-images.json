@@ -1,19 +1,19 @@
 {
     "bgImages": [
         {
-            "src": "img/one.jpg"
+            "src": "img/One.jpg"
         },
         {
-            "src": "img/two.jpg"
+            "src": "img/Two.jpg"
         },
         {
-            "src": "img/three.jpg"
+            "src": "img/Three.jpg"
         },
         {
-            "src": "img/four.jpg"
+            "src": "img/Four.jpg"
         },
         {
-            "src": "img/five.jpg"
+            "src": "img/Five.jpg"
         }
         
     ]

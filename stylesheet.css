@@ -26,6 +26,22 @@ body {
   width: 100%;
 }
 
+body.first {
+  background-image: url(img/One.jpg);
+}
+body.second {
+  background-image: url(img/Two.jpg);
+}
+body.third {
+  background-image: url(img/Three.jpg);
+}
+body.fourth {
+  background-image: url(img/Four.jpg);
+}
+body.fifth {
+  background-image: url(img/Five.jpg);
+}
+
 a {
 	opacity: 1;
 	/* transition: all .5s ease; */

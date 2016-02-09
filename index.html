@@ -60,10 +60,8 @@
 			  var randomImage = data.bgImages[Math.floor(Math.random()*data.bgImages.length)];
 			  console.log(randomImage);
 			  var bgImage = randomImage.src;
-			  var backgroundFix = {
-				  backgroundImage: bgImage
-			  };
-			  $( "div" ).css( backgroundFix );
+			  var bgClass = randomImage.imgClass;
+			  $( "body" ).addClass( bgClass );
 			});
 		</script>
 

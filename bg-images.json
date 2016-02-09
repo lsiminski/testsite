@@ -1,19 +1,24 @@
 {
     "bgImages": [
         {
-            "src": "img/One.jpg"
+            "src": "img/One.jpg",
+            "imgClass": "first"
         },
         {
-            "src": "img/Two.jpg"
+            "src": "img/Two.jpg",
+            "imgClass": "second"
         },
         {
-            "src": "img/Three.jpg"
+            "src": "img/Three.jpg",
+            "imgClass": "third"
         },
         {
-            "src": "img/Four.jpg"
+            "src": "img/Four.jpg",
+            "imgClass": "fourth"
         },
         {
-            "src": "img/Five.jpg"
+            "src": "img/Five.jpg",
+            "imgClass": "fifth"
         }
         
     ]

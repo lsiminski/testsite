@@ -110,6 +110,19 @@ a:hover {
 	margin-top: 10px;
 }
 
+.container {
+	width: 60%;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+}
+
 .container-1 {
 	font-family: 'Montserrat';
 	width: 60%;

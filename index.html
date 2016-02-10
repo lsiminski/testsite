@@ -8,6 +8,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+		
 		<!-- TITLE -->
 		<title>Lauren Siminski</title>
 		
@@ -50,6 +54,17 @@
 			<li><a href="https://www.linkedin.com/in/laurensiminski"><img src="http://i63.tinypic.com/ms0yn5.png"></a></li>
 			</ul>
 		</div>
+		
+		<div id="container" class="container">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="1.00"><img src="images/layer1.png"></li>
+			<li class="layer" data-depth="0.80"><img src="images/layer2.png"></li>
+			<li class="layer" data-depth="0.60"><img src="images/layer3.png"></li>
+			<li class="layer" data-depth="0.40"><img src="images/layer4.png"></li>
+			<li class="layer" data-depth="0.20"><img src="images/layer5.png"></li>
+			<li class="layer" data-depth="0.00"><img src="images/layer6.png"></li>
+		</ul>
+		</div>
 
 		<!-- PROBABLY IMPORTANT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -65,6 +80,15 @@
 			  $( "body" ).addClass( bgClass );
 			});
 		</script>
+		
+		<script src="scripts/jquery.js"></script>
+	<script src="../deploy/jquery.parallax.js"></script>
+	<script>
+
+	// Yep, that's it!
+	$('#scene').parallax();
+
+	</script>
 
   </body>
 

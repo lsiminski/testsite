@@ -175,6 +175,17 @@ top: 50%;
 */
 }
 
+.container-4 {
+	width: 60%;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%); 
+}
+
 .container-3 p {
 	margin: 0;
 }
@@ -185,12 +196,30 @@ top: 50%;
 	margin: 0;
 }
 
+.logos ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 .projects li {
+	display: inline;
+}
+
+.logos li {
 	display: inline;
 }
 
 .projects ul img {
 	width: 24.7%;
+	height: auto;
+	padding: 0 0 1px 0;
+	margin: 0;
+	
+}
+
+.logos ul img {
+	width: 24%;
 	height: auto;
 	padding: 0 0 1px 0;
 	margin: 0;

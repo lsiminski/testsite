@@ -150,6 +150,7 @@ a:hover {
 }
 
 .container-2 {
+	visibility: hidden;
 	font-family: 'Montserrat';
 	width: 60%;
 	color: white;
@@ -165,6 +166,33 @@ a:hover {
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%); 
+}
+
+.container-02 {
+	visibility: visible;
+	width: 70%;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.container-02 img {
+	width: 90%;
+	height: auto;
+	padding: 0 0 5px 0;
+	margin: 0 8% 0 0;
+}
+
+.container-02 ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container-02 li {
+	display: inline;
 }
 
 .container-3 {
@@ -269,16 +297,7 @@ h1 {
   background: white;
   width: 100%;
   text-align: center;
-  /*
-position: fixed;
-  text-align: center;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%,-50%); 
-  -moz-transform: translate(-50%,-50%); 
-  transform: translate(-50%,-50%);
-*/
+  
 }
 
 .gallery img {

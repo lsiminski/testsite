@@ -158,6 +158,15 @@ a:hover {
 	margin: 0 auto;
 }
 
+.exception {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%); 
+}
+
 .container-02 img {
 	width: 95%;
 	height: auto;

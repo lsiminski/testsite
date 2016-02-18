@@ -125,6 +125,10 @@ a:hover {
 	padding: 0;
 }
 
+.container-1 p {
+	color: black;
+}
+
 .container-2 {
 	font-family: 'Montserrat';
 	width: 60%;

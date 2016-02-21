@@ -13,19 +13,19 @@ body {
 }
 
 body.first {
-  background-image: url(img/One.jpg);
+  background-image: url(img/bg_beads.jpg);
 }
 body.second {
-  background-image: url(img/Two.jpg);
+  background-image: url(img/bg_toothpaste.jpg);
 }
 body.third {
-  background-image: url(img/Three.jpg);
+  background-image: url(img/bg_sand.jpg);
 }
 body.fourth {
-  background-image: url(img/Four.jpg);
+  background-image: url(img/bg_film.jpg);
 }
 body.fifth {
-  background-image: url(img/Five.jpg);
+  background-image: url(img/bg_wire.jpg);
 }
 
 a {

@@ -62,7 +62,7 @@ input[type=checkbox]:checked + label:before {
 
 .container {
   position: relative;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 5%;
 }
@@ -121,14 +121,14 @@ input[type=checkbox]:checked + label:before {
 }
 
 .layer:nth-child(5) {
-  opacity: 0.75;
+  opacity: 1.00;
 }
 .layer:nth-child(5) button {
   -webkit-transform: rotate(30deg);
 }
 
 .layer:nth-child(6) {
-  opacity: 0.90;
+  opacity: 1.00;
 }
 .layer:nth-child(6) button {
 }

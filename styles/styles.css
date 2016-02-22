@@ -62,9 +62,19 @@ input[type=checkbox]:checked + label:before {
 
 .container {
   position: relative;
-  max-width: 900px;
+  width: 900px;
   margin: 0 auto;
   padding: 5%;
+}
+
+.container img {
+	width: 200%;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	-webkit-transform: translate(-25%,0); 
+	-moz-transform: translate(-25%,0); 
+	transform: translate(-25%,0);
 }
 
 .scene {

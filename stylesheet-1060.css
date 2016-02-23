@@ -126,6 +126,21 @@ a:hover {
 	padding: 0;
 }
 
+.container-1-2 {
+	font-family: 'Montserrat';
+	width: 900px;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+}
+
 .container-1 p {
 	color: black;
 }
@@ -310,5 +325,52 @@ position: fixed;
 .gallery img {
   display: block;
   height: 550px;
+}
+
+.col {
+	display: inline-block;
+	width: 100%;
+	font-size: 13.5px;
+	line-height: 26px;
+}
+
+.col h2 {
+	color: #0340e9;
+	font-size: 24px;
+	margin: 0 0 18px 0;
+	letter-spacing: 0.3px;
+}
+
+.col-title {
+	font-family: 'Montserrat';
+	color: #5b5b5b;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	font-weight: 700;
+}
+
+.col-1 {
+	width: 50%;
+	float: left;
+	padding: 0 0 0 150px;
+}
+
+.col-2 {
+	width: 50%;
+	float: right;
+	text-align: left;
+	padding: 25px 150px 0 0;
+}
+
+.col p {
+	padding: 0 0 20px 0;
+}
+
+.highlight {
+	font-size: 19px;
+	letter-spacing: 0.6px;
+	line-height: 26px;
 }
 

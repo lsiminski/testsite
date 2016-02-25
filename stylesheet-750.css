@@ -338,20 +338,37 @@ position: fixed;
 	visibility: visible;
 }
 
-.container-1-02 {
+.container-1-2 {
 	font-family: 'Montserrat';
-	width: 550px;
+	width: 80%;
+	height: 0;
 	font-size: 12px;
 	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%); 
-	-moz-transform: translate(-50%,-50%); 
-	transform: translate(-50%,-50%);
-	margin: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate(0,0); 
+	-moz-transform: translate(0,0); 
+	transform: translate(0,0);
+	margin: 0 auto;
 	padding: 0;
 	visibility: hidden;
+}
+
+.container-1-02 {
+	font-family: 'Montserrat';
+	width: 45%;
+	font-size: 12px;
+	text-align: left;
+	position: relative;
+	top: 60px;
+	left: 0;
+	-webkit-transform: translate(0,0); 
+	-moz-transform: translate(0,0); 
+	transform: translate(0,0);
+	margin: 0 auto 0 auto;
+	padding: 0;
+	visibility: visible;
 }
 
 .col {
@@ -366,6 +383,7 @@ position: fixed;
 	width: 100%;
 	font-size: 13.5px;
 	line-height: 26px;
+
 }
 
 .col h2 {
@@ -403,29 +421,34 @@ position: fixed;
 }
 
 .col-1 {
-	width: 20%;
+	width: 100%;
 	float: left;
-	padding: 0 0 0 0px;
+	padding: 0 0 0 100px;
 }
 
 .col2-1 {
-	width: 20%;
+	width: 100%;
 	float: left;
-	padding: 0 0 0 0px;
+	padding: 0 0 0 0;
+}
+
+.col2-1 img {
+	width: 100%;
+	height: auto;
 }
 
 .col-2 {
-	width: 38%;
-	float: right;
+	width: 100%;
+	float: left;
 	text-align: left;
-	padding: 40px 0px 0 0;
+	padding: 40px 100px 0 0;
 }
 
 .col2-2 {
-	width: 38%;
-	float: right;
+	width: 100%;
+	float: left;
 	text-align: left;
-	padding: 40px 0px 0 0;
+	padding: 40px 0 0 0;
 }
 
 .col p {
@@ -455,10 +478,9 @@ position: fixed;
 	color: #303aff;
 }
 
-.col2-2 a {
+.col2 a {
 	color: #303aff;
 }
-
 
 
 

@@ -128,21 +128,6 @@ position: fixed;
 	padding: 60px 0;
 }
 
-.container-1-2 {
-	font-family: 'Montserrat';
-	width: 900px;
-	font-size: 12px;
-	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%); 
-	-moz-transform: translate(-50%,-50%); 
-	transform: translate(-50%,-50%);
-	margin: 0;
-	padding: 0;
-}
-
 .container-1 p {
 	color: black;
 }
@@ -329,6 +314,38 @@ position: fixed;
   height: 550px;
 }
 
+.container-1-2 {
+	font-family: 'Montserrat';
+	width: 900px;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	visibility: visible;
+}
+
+.container-1-02 {
+	font-family: 'Montserrat';
+	width: 900px;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+}
+
 .col {
 	display: inline-block;
 	width: 100%;
@@ -336,8 +353,22 @@ position: fixed;
 	line-height: 26px;
 }
 
+.col2 {
+	display: inline-block;
+	width: 100%;
+	font-size: 13.5px;
+	line-height: 26px;
+}
+
 .col h2 {
-	color: #0340e9;
+	color: #242424;
+	font-size: 24px;
+	margin: 0 0 18px 0;
+	letter-spacing: 0.3px;
+}
+
+.col2 h2 {
+	color: #242424;
 	font-size: 24px;
 	margin: 0 0 18px 0;
 	letter-spacing: 0.3px;
@@ -345,7 +376,17 @@ position: fixed;
 
 .col-title {
 	font-family: 'Montserrat';
-	color: #5b5b5b;
+	color: #303aff;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	font-weight: 700;
+}
+
+.col2-title {
+	font-family: 'Montserrat';
+	color: #303aff;
 	font-size: 12px;
 	text-align: left;
 	text-transform: uppercase;
@@ -354,19 +395,36 @@ position: fixed;
 }
 
 .col-1 {
-	width: 50%;
+	width: 40%;
 	float: left;
-	padding: 0 0 0 150px;
+	padding: 0 0 0 100px;
+}
+
+.col2-1 {
+	width: 40%;
+	float: left;
+	padding: 0 0 0 100px;
 }
 
 .col-2 {
-	width: 50%;
+	width: 40%;
 	float: right;
 	text-align: left;
-	padding: 25px 150px 0 0;
+	padding: 40px 100px 0 0;
+}
+
+.col2-2 {
+	width: 40%;
+	float: right;
+	text-align: left;
+	padding: 40px 100px 0 0;
 }
 
 .col p {
+	padding: 0 0 20px 0;
+}
+
+.col2 p {
 	padding: 0 0 20px 0;
 }
 
@@ -374,5 +432,22 @@ position: fixed;
 	font-size: 19px;
 	letter-spacing: 0.6px;
 	line-height: 26px;
+	color: #5b5b5b;
+}
+
+.col-2 img {
+	padding: 18px 0 16px 0;
+}
+
+.col2-2 img {
+	padding: 18px 0 16px 0;
+}
+
+.col-2 a {
+	color: #303aff;
+}
+
+.col2-2 a {
+	color: #303aff;
 }
 

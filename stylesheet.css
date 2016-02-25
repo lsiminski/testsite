@@ -333,4 +333,150 @@ h1 {
   height: 550px;
 }
 
+.container-1-2 {
+	font-family: 'Montserrat';
+	width: 80%;
+	height: 0;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate(0,0); 
+	-moz-transform: translate(0,0); 
+	transform: translate(0,0);
+	margin: 0 auto;
+	padding: 0;
+	visibility: hidden;
+}
+
+.container-1-02 {
+	font-family: 'Montserrat';
+	width: 45%;
+	font-size: 12px;
+	text-align: left;
+	position: relative;
+	top: 60px;
+	left: 0;
+	-webkit-transform: translate(0,0); 
+	-moz-transform: translate(0,0); 
+	transform: translate(0,0);
+	margin: 0 auto 0 auto;
+	padding: 0;
+	visibility: visible;
+}
+
+.col {
+	display: inline-block;
+	width: 100%;
+	font-size: 13.5px;
+	line-height: 26px;
+}
+
+.col2 {
+	display: inline-block;
+	width: 100%;
+	font-size: 13.5px;
+	line-height: 26px;
+
+}
+
+.col h2 {
+	color: #242424;
+	font-size: 24px;
+	margin: 0 0 18px 0;
+	letter-spacing: 0.3px;
+}
+
+.col2 h2 {
+	color: #242424;
+	font-size: 24px;
+	margin: 0 0 18px 0;
+	letter-spacing: 0.3px;
+}
+
+.col-title {
+	font-family: 'Montserrat';
+	color: #303aff;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	font-weight: 700;
+}
+
+.col2-title {
+	font-family: 'Montserrat';
+	color: #303aff;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	font-weight: 700;
+}
+
+.col-1 {
+	width: 100%;
+	float: left;
+	padding: 0 0 0 100px;
+}
+
+.col2-1 {
+	width: 100%;
+	float: left;
+	padding: 0 0 0 0;
+}
+
+.col2-1 img {
+	width: 100%;
+	height: auto;
+}
+
+.col-2 {
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding: 40px 100px 0 0;
+}
+
+.col2-2 {
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding: 40px 0 0 0;
+}
+
+.col p {
+	padding: 0 0 20px 0;
+}
+
+.col2 p {
+	padding: 0 0 20px 0;
+}
+
+.highlight {
+	font-size: 19px;
+	letter-spacing: 0.6px;
+	line-height: 26px;
+	color: #5b5b5b;
+}
+
+.col-2 img {
+	padding: 18px 0 16px 0;
+}
+
+.col2-2 img {
+	padding: 18px 0 16px 0;
+}
+
+.col-2 a {
+	color: #303aff;
+}
+
+.col2 a {
+	color: #303aff;
+}
+
+
+
 }

@@ -112,18 +112,20 @@ a:hover {
 
 .container-1 {
 	font-family: 'Montserrat';
-	width: 60%;
+	width: 70%;
 	color: white;
 	font-size: 12px;
 	text-align: center;
-	position: fixed;
+	/*
+position: fixed;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);
-	margin: 0;
-	padding: 0;
+*/
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
 .container-1-2 {
@@ -276,10 +278,10 @@ top: 50%;
 }
 
 .projects ul img {
-	width: 210px;
+	width: 30%;
 	height: auto;
-	padding: 0 0 1px 0;
-	margin: 0;
+	padding: 0 0 5px 0;
+	margin: 0 5px 0 0;
 	
 }
 

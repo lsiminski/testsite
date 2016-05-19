@@ -166,6 +166,7 @@ body.has-active-menu {
   -moz-appearance: none;
   appearance: none;
   margin: 0;
+  border-top: white solid 80px;
 }
 
 .c-button:focus {

@@ -76,10 +76,12 @@ img {
 
 .c-menu--slide-top .c-menu__close {
   /* display: inline-block; */
-  margin-right: 12px;
+  /*
+margin-right: 12px;
   padding: 0 24px;
   height: 60px;
   line-height: 60px;
+*/
 }
 
 .c-menu--slide-top {
@@ -101,16 +103,17 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  color: #fff;
+  color: #000;
   /* background-color: #3184a1; */
-  font-size: 14px;
+  /*
+font-size: 14px;
   border: none;
   box-shadow: none;
   border-radius: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  cursor: pointer;
+*/
 }
 
 .c-menu__close:focus {

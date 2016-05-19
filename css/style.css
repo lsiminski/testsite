@@ -58,6 +58,17 @@ img {
 	display: inline;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.rotated-menu a {
+	color: white;
+}
+
+.rotated-menu a:hover {
+	color: white;
 }
 
 .c-menu--slide-top {

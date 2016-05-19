@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Slide &amp; Push Menus with CSS3 Transitions</title>
+  <meta name="description" content="Some slide and push menu demos using CSS3 transitions.">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<div id="o-wrapper" class="o-wrapper">
+
+  <main class="o-content">
+    <div class="o-container">
+
+        <nav id="c-button--slide-top" class="c-button">Slide Top</div>
+    </div>
+      
+      <div id="github-icons"></div>
+
+    </div><!-- /o-container -->
+  </main><!-- /o-content -->
+
+</div><!-- /o-wrapper -->
+
+<!-- /c-menu slide-top -->
+
+<nav id="c-menu--push-top" class="c-menu c-menu--push-top">
+  <button class="c-menu__close"><strong>x</strong></button>
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">About</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Services</a></li>
+  </ul>
+</nav>
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+
+<!-- menus script -->
+<script src="js/dist/menu.js"></script>
+<script>
+  
+
+  /**
+   * Slide top instantiation and action.
+   */
+  var slideTop = new Menu({
+    wrapper: '#o-wrapper',
+    type: 'slide-top',
+    menuOpenerClass: '.c-button',
+    maskId: '#c-mask'
+  });
+
+  var slideTopBtn = document.querySelector('#c-button--slide-top');
+  
+  slideTopBtn.addEventListener('click', function(e) {
+    e.preventDefault;
+    slideTop.open();
+  });
+
+</script>
+
+</body>
+</html>

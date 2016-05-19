@@ -93,10 +93,10 @@ top: 10px;
 }
 
 .rotated-menu {
-	-webkit-transform: rotate(-90deg);
-	position: absolute;
-	left: -180px;
-	top: 292px;
+	/* -webkit-transform: rotate(-90deg); */
+	position: fixed;
+	width: 60%;
+	left: 20%;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;

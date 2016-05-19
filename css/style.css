@@ -149,9 +149,9 @@ body.has-active-menu {
 .c-button {
   display: inline-block;
   margin: 4px;
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
   /* color: #67b5d1; */
-  background: gray;
+  background: yellow;
   font-size: 14px;
   box-shadow: none;
   border-radius: none;

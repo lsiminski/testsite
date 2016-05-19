@@ -51,8 +51,9 @@ img {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 520px;
-    background: yellow;
+    width: 550px;
+    background: pink;
+    height: 50px;
 }
 
 .rotated-menu li {
@@ -63,6 +64,7 @@ img {
 	letter-spacing: 1.3px;
 	color: white;
 	font-weight: 400;
+	vertical-align: middle;
 }
 
 .rotated-menu li+li {

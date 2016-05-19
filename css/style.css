@@ -73,6 +73,7 @@ top: 10px;
 }
 
 .gray-bg {
+	visibility: visible;
 	position: fixed;
 	color: #f2f2f2;
 	height: 50px;

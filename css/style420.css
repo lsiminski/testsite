@@ -66,6 +66,10 @@ top: 10px;
 	height: 20px;
 }
 
+.gray-bg {
+	visibility: hidden;
+}
+
 .c-menu {
   position: fixed;
   z-index: 200;

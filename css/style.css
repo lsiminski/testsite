@@ -55,8 +55,8 @@ img {
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 100%;
-  height: 500px;
+  width: 30px;
+  height: 60px;
   text-align: center;
   overflow-x: scroll;
 }

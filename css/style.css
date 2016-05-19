@@ -96,10 +96,14 @@ top: 10px;
 	-webkit-transform: rotate(0deg);
 	position: fixed;
 	width: 80%;
-	left: 10%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
 	list-style-type: none;
-    margin: auto 0;
-    padding: 0 0 1px 0;
+   /*  margin: auto 0; */
+    padding: 0 0 20px 0;
    /*  width: 440px; */
     line-height: 16px;
 	/* vertical-align: middle; */

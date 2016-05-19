@@ -64,7 +64,7 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -235px;
+	left: -225px;
 	top: 250px;
 	list-style-type: none;
     margin: auto 0;
@@ -82,7 +82,7 @@ img {
 	letter-spacing: 1.3px;
 	color: #1e1e1e;
 	font-weight: 400;
-	height: 60px;
+	height: 80px;
 	/* padding: 0 0 3px 0; */
 	margin: 0;
 }
@@ -102,7 +102,7 @@ img {
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 60px;
+  width: 80px;
   height: 565px;
   text-align: center;
   /* overflow-x: scroll; */
@@ -128,7 +128,7 @@ body.has-active-menu {
 
 .c-menu__close {
   position: fixed;
-  width: 60px;
+  width: 80px;
   text-align: center;
   left: 0;
   top: 525px;
@@ -180,7 +180,7 @@ body.has-active-menu {
 .c-button {
   /* display: inline-block; */
   /* margin: 4px; */
-  width: 60px;
+  width: 80px;
   height: 50px;
   padding: 15px 0;
   text-align: center;

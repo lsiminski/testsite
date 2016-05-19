@@ -57,8 +57,6 @@ img {
     padding: 0 0 3px 0;
     width: 550px;
     background: blue;
-    line-height: 16px;
-    vertical-align: middle;
 }
 
 .rotated-menu li {
@@ -115,8 +113,10 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  line-height: 16px;
-  vertical-align: middle;
+  position: relative;
+  width: 50px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .c-menu__close:focus {

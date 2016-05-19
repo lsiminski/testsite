@@ -64,8 +64,8 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -225px;
-	top: 250px;
+	left: -180px;
+	top: 225px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;

@@ -54,6 +54,18 @@ top: 10px;
 */
 }
 
+.logo-name {
+	position: fixed;
+	left: 100px;
+	top: 20px;
+	z-index: 9999;
+}
+
+.logo-name img {
+	width: auto;
+	height: 48px;
+}
+
 .c-menu {
   position: fixed;
   z-index: 200;

@@ -116,6 +116,7 @@ top: 10px;
 	height: 80px;
 	/* padding: 0 0 3px 0; */
 	margin: 0;
+	text-align: center;
 }
 
 .rotated-menu li+li {

@@ -621,15 +621,13 @@ body.has-active-menu {
   margin: 4px;
   padding: 12px 24px;
   color: #67b5d1;
-  background: none;
+  background: yellow;
   font-size: 14px;
-  border: solid 2px #67b5d1;
   box-shadow: none;
   border-radius: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  cursor: pointer;
 }
 
 .c-button:focus {

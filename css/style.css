@@ -55,8 +55,8 @@ img {
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 30px;
-  height: 60px;
+  width: 50px;
+  height: 500px;
   text-align: center;
   overflow-x: scroll;
 }
@@ -152,7 +152,7 @@ body.has-active-menu {
   /* margin: 4px; */
   padding: 12px 24px;
   color: white;
-  background: yellow;
+  background: cyan;
   font-size: 14px;
   box-shadow: none;
   border-radius: none;

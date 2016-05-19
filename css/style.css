@@ -54,7 +54,8 @@ img {
 	list-style-type: none;
     margin: 0;
     padding: 0 0 3px 0;
-    width: 550px;
+    width: 100%;
+    background: blue;
 }
 
 .rotated-menu li {

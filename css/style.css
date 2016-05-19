@@ -113,10 +113,11 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  /*
-line-height: 16px;
-  vertical-align: middle;
-*/
+  position: fixed;
+  width: 50px;
+  text-align: center;
+  left: 0;
+  top: 600px;
 }
 
 .c-menu__close:focus {

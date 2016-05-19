@@ -78,7 +78,7 @@ img {
 	display: inline;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
-	font-size: 10.5px;
+	font-size: 11.5px;
 	letter-spacing: 1.3px;
 	color: #1e1e1e;
 	font-weight: 400;
@@ -88,7 +88,7 @@ img {
 }
 
 .rotated-menu li+li {
-	padding-left: 12px;
+	padding-left: 14px;
 }
 
 .rotated-menu a {

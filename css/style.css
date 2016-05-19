@@ -115,11 +115,11 @@ body.has-active-menu {
   color: #000;
 }
 
+/*
 .c-menu__close img {
-  position: relative;
-  bottom: 25px;
-  left: 25px;
+  color: #000;
 }
+*/
 
 .c-menu__close:focus {
   outline: none;
@@ -157,7 +157,7 @@ body.has-active-menu {
   /* margin: 4px; */
   padding: 12px 24px;
   color: white;
-  background: pink;
+  background: yellow;
   font-size: 14px;
   box-shadow: none;
   border-radius: none;

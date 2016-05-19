@@ -40,7 +40,7 @@ img {
 
 .logo {
 	position: fixed;
-	left: 13px;
+	left: 75px;
 	top: 10px;
 	z-index: 9999;
 }
@@ -194,7 +194,7 @@ body.has-active-menu {
   /* margin: 80px 0 0 0; */
   position: fixed;
   left: 0;
-  top: 80px;
+  top: 0;
 }
 
 .c-button:focus {

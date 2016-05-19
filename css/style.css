@@ -3,6 +3,7 @@
   FONTS
   
 ----------------------------------------------------------------------------- */
+/*
 @font-face {
   font-family: 'Oxygen';
   font-style: normal;
@@ -24,6 +25,7 @@
   src: url("../fonts/oxygen/oxygen-v5-latin-700.eot");
   src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../fonts/oxygen/oxygen-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen/oxygen-v5-latin-700.woff2") format("woff2"), url("../fonts/oxygen/oxygen-v5-latin-700.woff") format("woff"), url("../fonts/oxygen/oxygen-v5-latin-700.ttf") format("truetype"), url("../fonts/oxygen/oxygen-v5-latin-700.svg#Oxygen") format("svg");
 }
+*/
 /* -----------------------------------------------------------------------------
 
   BOX SIZING RESET
@@ -251,6 +253,7 @@ img {
   FOOTER OBJECT
   
 ----------------------------------------------------------------------------- */
+/*
 .o-footer {
   padding: 12px 0;
   text-align: center;
@@ -266,6 +269,7 @@ img {
     padding: 48px 0;
   }
 }
+*/
 /* -----------------------------------------------------------------------------
 
   SLIDE AND PUSH MENUS COMPONENT
@@ -300,6 +304,7 @@ img {
 /**
  * Common modifiers for left/right menus.
  */
+/*
 .c-menu--slide-left,
 .c-menu--slide-right,
 .c-menu--push-left,
@@ -356,10 +361,12 @@ img {
   padding: 12px 24px;
   width: 100%;
 }
+*/
 
 /**
  * Slide/Push Menu Left.
  */
+/*
 .c-menu--slide-left,
 .c-menu--push-left {
   top: 0;
@@ -383,10 +390,12 @@ img {
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
+*/
 
 /**
  * Slide/Push Menu Right.
  */
+/*
 .c-menu--slide-right,
 .c-menu--push-right {
   top: 0;
@@ -410,6 +419,7 @@ img {
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
+*/
 
 /**
  * Top and bottom menus
@@ -423,10 +433,7 @@ img {
 /**
  * Common modifiers for top/bottom menus
  */
-.c-menu--slide-top,
-.c-menu--slide-bottom,
-.c-menu--push-top,
-.c-menu--push-bottom {
+.c-menu--slide-top {
   vertical-align: middle;
   width: 100%;
   height: 60px;
@@ -434,35 +441,23 @@ img {
   overflow-x: scroll;
 }
 
-.c-menu--slide-top .c-menu__items,
-.c-menu--slide-bottom .c-menu__items,
-.c-menu--push-top .c-menu__items,
-.c-menu--push-bottom .c-menu__items {
+.c-menu--slide-top .c-menu__items {
   display: inline-block;
   text-align: center;
 }
 
-.c-menu--slide-top .c-menu__item,
-.c-menu--slide-bottom .c-menu__item,
-.c-menu--push-top .c-menu__item,
-.c-menu--push-bottom .c-menu__item {
+.c-menu--slide-top .c-menu__item {
   display: inline-block;
   line-height: 60px;
 }
 
-.c-menu--slide-top .c-menu__link,
-.c-menu--slide-bottom .c-menu__link,
-.c-menu--push-top .c-menu__link,
-.c-menu--push-bottom .c-menu__link {
+.c-menu--slide-top .c-menu__link {
   display: block;
   padding: 0 4px;
   color: #fff;
 }
 
-.c-menu--slide-top .c-menu__close,
-.c-menu--slide-bottom .c-menu__close,
-.c-menu--push-top .c-menu__close,
-.c-menu--push-bottom .c-menu__close {
+.c-menu--slide-top .c-menu__close {
   display: inline-block;
   margin-right: 12px;
   padding: 0 24px;
@@ -473,8 +468,7 @@ img {
 /**
  * Slide/Push Menu Top.
  */
-.c-menu--slide-top,
-.c-menu--push-top {
+.c-menu--slide-top {
   top: 0;
   left: 0;
   -webkit-transform: translateY(-60px);
@@ -482,8 +476,7 @@ img {
           transform: translateY(-60px);
 }
 
-.c-menu--slide-top.is-active,
-.c-menu--push-top.is-active {
+.c-menu--slide-top.is-active {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
@@ -492,6 +485,7 @@ img {
 /**
  * Slide/Push Menu Bottom.
  */
+/*
 .c-menu--slide-bottom,
 .c-menu--push-bottom {
   bottom: 0;
@@ -507,6 +501,7 @@ img {
       -ms-transform: translateY(0);
           transform: translateY(0);
 }
+*/
 
 /**
  * Wrapper states.
@@ -514,6 +509,7 @@ img {
  * Various wrapper states occur depending on if a menu is pushing into view, in
  * which case, the wrapper has to be pushed by the respective distance.
  */
+/*
 .o-wrapper.has-push-left {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -551,6 +547,7 @@ img {
       -ms-transform: translateY(-60px);
           transform: translateY(-60px);
 }
+*/
 
 /**
  * Body states.
@@ -649,6 +646,7 @@ body.has-active-menu {
   CARBON AD COMPONENT
   
 ----------------------------------------------------------------------------- */
+/*
 #carbonads {
   position: fixed;
   bottom: 12px;
@@ -698,4 +696,5 @@ body.has-active-menu {
   #carbonads {
     display: none;
   }
+*/
 }

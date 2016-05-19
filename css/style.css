@@ -62,16 +62,6 @@ img {
   /* overflow-x: scroll; */
 }
 
-.c-menu--slide-top .c-menu__items {
-  /* display: inline-block; */
-  text-align: center;
-}
-
-.c-menu--slide-top .c-menu__item {
-  /* display: inline-block; */
-  line-height: 60px;
-}
-
 .c-menu--slide-top .c-menu__link {
   /* display: block; */
   padding: 0 4px;

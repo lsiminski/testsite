@@ -60,14 +60,15 @@ top: 10px;
 
 .logo-name {
 	position: fixed;
-	left: 102px;
+	left: 15%;
 	top: 25px;
-	z-index: 9999;
+	width: 70%;
+	z-index: 1000;
 }
 
 .logo-name img {
 	width: auto;
-	height: 20px;
+	height: 14px;
 }
 
 .c-menu {

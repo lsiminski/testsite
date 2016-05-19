@@ -51,7 +51,7 @@ img {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
 	left: -230px;
-	top: 295px;
+	top: 300px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 2px 0;
@@ -117,7 +117,7 @@ body.has-active-menu {
   width: 50px;
   text-align: center;
   left: 0;
-  top: 525px;
+  top: 550px;
 }
 
 .c-menu__close:focus {

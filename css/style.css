@@ -82,7 +82,7 @@ img {
 	letter-spacing: 1.3px;
 	color: #1e1e1e;
 	font-weight: 400;
-	height: 50px;
+	height: 60px;
 	/* padding: 0 0 3px 0; */
 	margin: 0;
 }
@@ -102,7 +102,7 @@ img {
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 50px;
+  width: 60px;
   height: 615px;
   text-align: center;
   /* overflow-x: scroll; */
@@ -141,7 +141,7 @@ body.has-active-menu {
 .nav-mask {
 	position: fixed;
 	background: white;
-	width: 50px;
+	width: 60px;
 	height: 50px;
 	top: 0;
 	left: 0;
@@ -178,8 +178,8 @@ body.has-active-menu {
 .c-button {
   /* display: inline-block; */
   /* margin: 4px; */
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   padding: 15px 0;
   text-align: center;
   background: #f2f2f2;

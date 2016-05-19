@@ -113,6 +113,9 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
 }
 
 .c-menu__close:focus {

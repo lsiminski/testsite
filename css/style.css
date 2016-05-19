@@ -49,13 +49,13 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -235px;
+	left: -250px;
 	top: 260px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 3px 0;
     width: 550px;
-    background: blue;
+    background: pink;
 }
 
 .rotated-menu li {
@@ -87,7 +87,7 @@ img {
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 80px;
+  width: 50px;
   height: 100%;
   text-align: center;
   /* overflow-x: scroll; */

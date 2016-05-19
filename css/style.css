@@ -620,9 +620,9 @@ body.has-active-menu {
   display: inline-block;
   margin: 4px;
   padding: 12px 24px;
-  color: #67b5d1;
+  /* color: #67b5d1; */
   background: yellow;
-  font-size: 14px;
+  font-size: 8px;
   box-shadow: none;
   border-radius: none;
   -webkit-appearance: none;

@@ -113,11 +113,10 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  color: #000;
   position: relative;
   width: 50px;
   text-align: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .c-menu__close:focus {

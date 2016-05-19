@@ -54,9 +54,9 @@ img {
 	top: 260px;
 	list-style-type: none;
     margin: auto 0;
-    /* padding: 0 0 3px 0; */
+    padding: 0 0 3px 0;
     width: 550px;
-    background: pink;
+    background: blue;
     line-height: 16px;
     vertical-align: middle;
 }
@@ -115,7 +115,7 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  margin: 3px 0 0 0;
+  /* margin: 3px 0 0 0; */
 }
 
 .c-menu__close:focus {

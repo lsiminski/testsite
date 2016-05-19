@@ -48,17 +48,13 @@ img {
 
 .rotated-menu {
 	/* -webkit-transform: rotate(-90deg); */
-}
-
-.rotated-menu ul {
 	list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .rotated-menu li {
-	display: block;
-    width: 200px;
+	display: inline;
 }
 
 .c-menu--slide-top {

@@ -69,9 +69,10 @@ img {
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
-    width: 530px;
+    width: 520px;
     line-height: 16px;
 	vertical-align: middle;
+	background: blue;
 }
 
 .rotated-menu li {

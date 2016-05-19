@@ -40,13 +40,13 @@ img {
 
 .logo {
 	position: fixed;
-	left: 50px;
+	left: 30px;
 	top: 10px;
-	z-index: 3000;
+	z-index: 9999;
 }
 
 .logo img {
-	width: 50px;
+	width: 60px;
 	height: auto;
 	/*
 top: 10px;

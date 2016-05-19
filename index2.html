@@ -3,37 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Lauren Siminski</title>
+  <title>AYY</title>
   <!-- <meta name="description" content="Some slide and push menu demos using CSS3 transitions."> -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<div id="o-wrapper" class="o-wrapper">
 
-<!--
-++++++++++++++++++++
-CLICK BUTTON FOR NAV
-++++++++++++++++++++
--->
-<main class="o-content">
+  <main class="o-content">
     <div class="o-container">
       
         <div id="c-button--slide-top" class="c-button">Slide Top</div>
       
     </div><!-- /o-container -->
   </main><!-- /o-content -->
-<!--
-++++++++++++++++++++
-CLICK BUTTON FOR NAV
-++++++++++++++++++++
--->
 
 
-<!--
-++++++++++++++++++++
-THE ACTUAL SLIDE NAV
-++++++++++++++++++++
--->
+</div><!-- /o-wrapper -->
+
 <nav id="c-menu--slide-top" class="c-menu c-menu--slide-top">
   <button class="c-menu__close"><strong>x</strong></button>
   <ul class="c-menu__items">
@@ -44,18 +32,18 @@ THE ACTUAL SLIDE NAV
   </ul>
 </nav><!-- /c-menu slide-top -->
 
+
 <div id="c-mask" class="c-mask"></div><!-- /c-mask -->
-<!--
-++++++++++++++++++++
-THE ACTUAL SLIDE NAV
-++++++++++++++++++++
--->
 
-
+<!-- menus script -->
 <script src="js/dist/menu.js"></script>
 <script>
 
+  /**
+   * Slide top instantiation and action.
+   */
   var slideTop = new Menu({
+    wrapper: '#o-wrapper',
     type: 'slide-top',
     menuOpenerClass: '.c-button',
     maskId: '#c-mask'
@@ -69,6 +57,21 @@ THE ACTUAL SLIDE NAV
   });
 
 </script>
+
+<!-- EXTERNAL SCRIPTS FOR CALLMENICK.COM, PLEASE DO NOT INCLUDE -->
+<!--
+<script src="js/dist/githubIcons.js"></script>
+<script src="js/dist/carbonAd.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34160351-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+<!-- /EXTERNAL SCRIPTS -->
 
 </body>
 </html>

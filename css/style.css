@@ -51,6 +51,7 @@ img {
 	list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 500px;
 }
 
 .rotated-menu li {
@@ -148,7 +149,7 @@ body.has-active-menu {
   /* margin: 4px; */
   padding: 12px 24px;
   color: white;
-  background: yellow;
+  background: pink;
   font-size: 14px;
   box-shadow: none;
   border-radius: none;

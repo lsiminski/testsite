@@ -56,7 +56,7 @@ img {
     padding: 0;
 }
 
-.rotated-menu li a {
+.rotated-menu li {
 	display: block;
     width: 200px;
 }
@@ -69,11 +69,13 @@ img {
   /* overflow-x: scroll; */
 }
 
+/*
 .c-menu--slide-top .c-menu__link {
   display: block;
   padding: 0 4px;
   color: #000;
 }
+*/
 
 .c-menu--slide-top .c-menu__close {
   /* display: inline-block; */

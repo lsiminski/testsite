@@ -113,18 +113,14 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
-/*
-  position: relative;
+  position: absolute;
   bottom: 30px;
   left: 25px;
   width: 50px;
-*/
 }
 
-/*
 .c-menu__close img {
   text-align: center;
-*/
 
 .c-menu__close:focus {
   outline: none;

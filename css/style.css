@@ -113,11 +113,12 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   left: 25px;
   width: 50px;
   text-align: center;
+  background: pink;
 }
 
 .c-menu__close:focus {

@@ -77,12 +77,12 @@ img {
 }
 
 .rotated-menu a {
-	color: white;
+	color: #1e1e1e;
 	text-decoration: none;
 }
 
 .rotated-menu a:hover {
-	color: white;
+	color: #1e1e1e;
 }
 
 .c-menu--slide-top {

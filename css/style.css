@@ -69,7 +69,7 @@ img {
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
-    width: 500px;
+    width: 480px;
     line-height: 16px;
 	vertical-align: middle;
 	background: blue;
@@ -89,7 +89,7 @@ img {
 }
 
 .rotated-menu li+li {
-	padding-left: 14px;
+	padding-left: 16px;
 }
 
 .rotated-menu a {

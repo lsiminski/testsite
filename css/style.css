@@ -52,7 +52,7 @@ img {
     margin: 0;
     padding: 0;
     width: 550px;
-    background: pink;
+    background: yellow;
     height: 50px;
     vertical-align: middle;
 }
@@ -68,7 +68,7 @@ img {
 }
 
 .rotated-menu li+li {
-	padding-left: 15px;
+	padding-left: 12px;
 }
 
 .rotated-menu a {

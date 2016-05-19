@@ -113,7 +113,7 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  padding: 3px 0 0 0;
+  margin: 3px 0 0 0;
 }
 
 .c-menu__close:focus {

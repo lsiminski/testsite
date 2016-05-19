@@ -117,10 +117,8 @@ body.has-active-menu {
   bottom: 30px;
   left: 25px;
   width: 50px;
-}
-
-.c-menu__close img {
   text-align: center;
+}
 
 .c-menu__close:focus {
   outline: none;

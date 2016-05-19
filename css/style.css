@@ -113,7 +113,14 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
 }
+
+.c-menu__close img {
+  line-height: 50px;
+  vertical-align: middle;
 
 .c-menu__close:focus {
   outline: none;

@@ -106,7 +106,7 @@ top: 10px;
 }
 
 .rotated-menu li {
-	display: inline;
+	display: block;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
 	font-size: 11.5px;
@@ -119,7 +119,7 @@ top: 10px;
 }
 
 .rotated-menu li+li {
-	padding-left: 16px;
+	padding-bottom: 20px;
 }
 
 .rotated-menu a {
@@ -133,7 +133,7 @@ top: 10px;
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 80px;
+  width: 100%;
   height: 100%;
   text-align: center;
   /* overflow-x: scroll; */

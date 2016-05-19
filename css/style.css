@@ -52,11 +52,12 @@ img {
 	left: -235px;
 	top: 260px;
 	list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 0 3px 0;
     width: 550px;
     horizontal-align: middle;
-    background: blue;
+    vertical-align: middle;
+    background: pink;
 }
 
 .rotated-menu li {

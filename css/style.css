@@ -51,7 +51,7 @@ img {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 500px;
+    width: 480px;
     background: pink;
 }
 
@@ -66,7 +66,7 @@ img {
 }
 
 .rotated-menu li+li {
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
 .rotated-menu a {

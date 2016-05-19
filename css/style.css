@@ -47,7 +47,7 @@ img {
 }
 
 .rotated-menu {
-	/* -webkit-transform: rotate(-90deg); */
+	-webkit-transform: rotate(-90deg);
 	list-style-type: none;
     margin: 0;
     padding: 0 0 3px 0;

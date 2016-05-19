@@ -49,7 +49,7 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -300px;
+	left: -100px;
 	top: 200px;
 	list-style-type: none;
     margin: 0;

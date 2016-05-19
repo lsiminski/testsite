@@ -45,6 +45,13 @@ img {
 	z-index: 1;
 }
 
+.logo img {
+	width: 60px;
+	height: auto;
+	top: 10px;
+	left: 10px;
+}
+
 .c-menu {
   position: fixed;
   z-index: 200;

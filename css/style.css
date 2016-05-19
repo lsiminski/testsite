@@ -114,7 +114,7 @@ body.has-active-menu {
 .c-menu__close {
   color: #000;
   position: fixed;
-  bottom: 30px;
+  bottom: 25px;
   left: 0;
   width: 50px;
   text-align: center;

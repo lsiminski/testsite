@@ -172,7 +172,7 @@ body.has-active-menu {
   overflow: hidden;
   width: 0;
   height: 0;
-  /* background-color: #000; */
+  background-color: #1e1e1e;
   opacity: 0;
   -webkit-transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
           transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;

@@ -44,6 +44,7 @@ img {
   background-color: #3748ff;
   -webkit-transition: -webkit-transform 0.3s;
           transition: transform 0.3s;
+  height: 500px;
 }
 
 .c-menu__items {

@@ -50,12 +50,12 @@ img {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
 	left: -250px;
-	top: 255px;
+	top: 260px;
 	list-style-type: none;
     margin: 0;
     padding: 0 0 3px 0;
     width: 550px;
-    background: pink;
+    background: blue;
 }
 
 .rotated-menu li {

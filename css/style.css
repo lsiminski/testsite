@@ -51,7 +51,7 @@ img {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 500px;
+    /* width: 500px; */
 }
 
 .c-menu--slide-top {
@@ -63,9 +63,9 @@ img {
 }
 
 .c-menu--slide-top .c-menu__link {
-  display: block;
+  display: inline-block;
   padding: 0 4px;
-  color: #fff;
+  color: #000;
 }
 
 .c-menu--slide-top .c-menu__close {

@@ -52,9 +52,8 @@ img {
     margin: 0;
     padding: 0;
     width: 550px;
-    background: yellow;
+    background: blue;
     height: 50px;
-    vertical-align: middle;
 }
 
 .rotated-menu li {
@@ -65,6 +64,8 @@ img {
 	letter-spacing: 1.3px;
 	color: white;
 	font-weight: 400;
+	height: 50px;
+	vertical-align: middle;
 }
 
 .rotated-menu li+li {

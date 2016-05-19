@@ -96,9 +96,9 @@ img {
 .c-menu--slide-top {
   top: 0;
   left: 0;
-  -webkit-transform: translateY(-1800px);
-      -ms-transform: translateY(-1800px);
-          transform: translateY(-1800px);
+  -webkit-transform: translateY(-1500px);
+      -ms-transform: translateY(-1500px);
+          transform: translateY(-1500px);
 }
 
 .c-menu--slide-top.is-active {

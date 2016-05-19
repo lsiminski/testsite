@@ -33,6 +33,7 @@ img {
           transition: transform 0.3s;
 }
 
+/*
 .o-container {
   margin: 0 auto;
   padding: 0 12px;
@@ -49,6 +50,7 @@ img {
     padding: 0 48px;
   }
 }
+*/
 
 .c-menu {
   position: fixed;

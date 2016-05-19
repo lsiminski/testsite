@@ -50,7 +50,7 @@ img {
 	/* -webkit-transform: rotate(-90deg); */
 	list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 3px 0;
     width: 550px;
     background: pink;
 }

@@ -64,12 +64,12 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -225px;
+	left: -185px;
 	top: 330px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
-    width: 510px;
+    width: 530px;
     line-height: 16px;
 	vertical-align: middle;
 }
@@ -103,7 +103,7 @@ img {
 .c-menu--slide-top {
   vertical-align: middle;
   width: 60px;
-  height: 645px;
+  height: 565px;
   text-align: center;
   /* overflow-x: scroll; */
 }
@@ -131,13 +131,14 @@ body.has-active-menu {
   width: 60px;
   text-align: center;
   left: 0;
-  top: 605px;
+  top: 525px;
 }
 
 .c-menu__close:focus {
   outline: none;
 }
 
+/*
 .nav-mask {
 	position: fixed;
 	background: white;
@@ -147,6 +148,7 @@ body.has-active-menu {
 	left: 0;
 	z-index: 2000;
 }
+*/
 
 .c-mask {
   position: fixed;

@@ -113,7 +113,7 @@ top: 10px;
 	letter-spacing: 1.3px;
 	color: #1e1e1e;
 	font-weight: 400;
-	height: 80px;
+	/* height: 80px; */
 	/* padding: 0 0 3px 0; */
 	margin: 0;
 	text-align: center;
@@ -121,12 +121,9 @@ top: 10px;
 	padding-bottom: 20px;
 }
 
-/*
 .rotated-menu li+li {
-	padding-left: 0;
-	padding-bottom: 20px;
+	padding-top: 20px;
 }
-*/
 
 .rotated-menu a {
 	color: #1e1e1e;

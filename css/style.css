@@ -222,10 +222,14 @@ body.has-active-menu {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin: 0 0 0 20px;
+  /* margin: 0 0 0 20px; */
   position: fixed;
   left: 0;
   top: 0;
+}
+
+.c-button img {
+	margin: 0 0 0 20px;
 }
 
 .c-button:focus {

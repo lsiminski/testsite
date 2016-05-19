@@ -115,7 +115,8 @@ body.has-active-menu {
 }
 
 .c-menu__close {
-  /* margin: 3px 0 0 0; */
+  line-height: 16px;
+  vertical-align: middle;
 }
 
 .c-menu__close:focus {

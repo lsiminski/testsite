@@ -48,7 +48,9 @@ img {
 
 .rotated-menu {
 	/* -webkit-transform: rotate(-90deg); */
-	display: inline;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .c-menu--slide-top {
@@ -63,6 +65,7 @@ img {
   display: block;
   padding: 0 4px;
   color: #fff;
+  width: 500px;
 }
 
 .c-menu--slide-top .c-menu__close {

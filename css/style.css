@@ -48,13 +48,14 @@ img {
 
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
+	position: absolute;
 	left: -300px;
 	top: 200px;
 	list-style-type: none;
     margin: 0;
     padding: 0 0 3px 0;
     width: 550px;
-    background: green;
+    background: pink;
 }
 
 .rotated-menu li {
@@ -87,27 +88,9 @@ img {
 .c-menu--slide-top {
   vertical-align: middle;
   width: 50px;
-  height: 500px;
+  height: 550px;
   text-align: center;
   /* overflow-x: scroll; */
-}
-
-/*
-.c-menu--slide-top .c-menu__link {
-  display: block;
-  padding: 0 4px;
-  color: #000;
-}
-*/
-
-.c-menu--slide-top .c-menu__close {
-  /* display: inline-block; */
-  /*
-margin-right: 12px;
-  padding: 0 24px;
-  height: 60px;
-  line-height: 60px;
-*/
 }
 
 .c-menu--slide-top {
@@ -130,16 +113,6 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
-  /* background-color: #3184a1; */
-  /*
-font-size: 14px;
-  border: none;
-  box-shadow: none;
-  border-radius: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-*/
 }
 
 .c-menu__close:focus {

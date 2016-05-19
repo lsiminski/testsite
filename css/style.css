@@ -63,7 +63,7 @@ top: 10px;
 	left: 20%;
 	top: 16px;
 	width: 60%;
-	z-index: 1000;
+	z-index: 1500;
 	text-align: center;
 }
 
@@ -226,6 +226,7 @@ body.has-active-menu {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 1500;
 }
 
 .c-button img {

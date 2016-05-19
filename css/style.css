@@ -89,7 +89,7 @@ img {
 .c-menu--slide-top {
   vertical-align: middle;
   width: 50px;
-  height: 580px;
+  height: 625px;
   text-align: center;
   /* overflow-x: scroll; */
 }
@@ -117,7 +117,7 @@ body.has-active-menu {
   width: 50px;
   text-align: center;
   left: 0;
-  top: 550px;
+  top: 575px;
 }
 
 .c-menu__close:focus {

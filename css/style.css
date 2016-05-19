@@ -50,12 +50,12 @@ img {
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -250px;
-	top: 260px;
+	left: -230px;
+	top: 250px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 2px 0;
-    width: 530px;
+    width: 510px;
     background: pink;
     line-height: 16px;
 	vertical-align: middle;

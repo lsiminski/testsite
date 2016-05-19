@@ -113,7 +113,10 @@ body.has-active-menu {
 
 .c-menu__close {
   color: #000;
-  position: absolute;
+}
+
+.c-menu__close img {
+  position: relative;
   bottom: 25px;
   left: 25px;
 }

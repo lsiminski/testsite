@@ -93,16 +93,16 @@ top: 10px;
 }
 
 .rotated-menu {
-	/* -webkit-transform: rotate(-90deg); */
+	-webkit-transform: rotate(0deg);
 	position: fixed;
 	width: 60%;
 	left: 20%;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
-    width: 440px;
+   /*  width: 440px; */
     line-height: 16px;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 }
 
 .rotated-menu li {

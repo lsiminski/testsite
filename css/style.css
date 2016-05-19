@@ -65,7 +65,7 @@ img {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
 	left: -225px;
-	top: 300px;
+	top: 330px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
@@ -103,7 +103,7 @@ img {
 .c-menu--slide-top {
   vertical-align: middle;
   width: 60px;
-  height: 615px;
+  height: 645px;
   text-align: center;
   /* overflow-x: scroll; */
 }
@@ -131,7 +131,7 @@ body.has-active-menu {
   width: 60px;
   text-align: center;
   left: 0;
-  top: 575px;
+  top: 605px;
 }
 
 .c-menu__close:focus {
@@ -142,7 +142,7 @@ body.has-active-menu {
 	position: fixed;
 	background: white;
 	width: 60px;
-	height: 50px;
+	height: 80px;
 	top: 0;
 	left: 0;
 	z-index: 2000;
@@ -192,7 +192,7 @@ body.has-active-menu {
   /* margin: 80px 0 0 0; */
   position: fixed;
   left: 0;
-  top: 50px;
+  top: 80px;
 }
 
 .c-button:focus {

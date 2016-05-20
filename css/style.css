@@ -46,7 +46,7 @@ img {
 	position: fixed;
 	width: 110%;
 	text-align: center;
-	left: -10px
+	left: -10px;
 	top: 25px;
 	z-index: 9999;
 }

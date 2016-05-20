@@ -177,11 +177,11 @@ body.has-active-menu {
   position: fixed;
   width: 100%;
   text-align: center;
-  bottom: 20px;
+  bottom: 25px;
 }
 
 .c-menu__close img {
-  width: 16px;
+  width: 20px;
   height: auto;
 }
 

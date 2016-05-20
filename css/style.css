@@ -8,11 +8,19 @@
   box-sizing: inherit;
 }
 
-html.home {
+html {
   box-sizing: border-box;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
+/*
+  width: 100%;
+  z-index: 1;
+*/
 }
 
 body { 
@@ -206,6 +214,7 @@ input[type=checkbox]:checked + label:before {
 	font-size: 12px;
 	text-align: center;
 	position: absolute;
+	top: 50px;
 	margin: 0 auto;
 	overflow: scroll;
 }

@@ -228,7 +228,7 @@ input[type=checkbox]:checked + label:before {
 .projects ul img {
 	width: 32%;
 	height: auto;
-	padding: 2.5px;
+	padding: 1.5px;
 	/*
 padding: 0 0 5px 0;
 	margin: 0 5px 0 0;

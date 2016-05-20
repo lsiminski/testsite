@@ -8,19 +8,11 @@
   box-sizing: inherit;
 }
 
-html {
+html.home {
   box-sizing: border-box;
-}
-
-html,
-body {
   margin: 0;
   padding: 0;
   height: 100%;
-/*
-  width: 100%;
-  z-index: 1;
-*/
 }
 
 body { 

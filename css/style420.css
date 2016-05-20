@@ -257,9 +257,9 @@ body.has-active-menu {
 
 .projects {
 	position: fixed;
-	width: 100%;
+	width: 80%;
 	top: 50%;
-	left: 49%;
+	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);

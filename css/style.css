@@ -53,7 +53,7 @@ body.fifth {
 
 a {
 	opacity: 1;
-	/* transition: all .5s ease; */
+	transition: all .5s ease;
 	text-decoration: none;
 	color: #5B5B5B;
 }
@@ -70,20 +70,6 @@ a:hover {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
-/*
-.container {
-	width: 75%;
-	color: white;
-	font-size: 12px;
-	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%); 
-	-moz-transform: translate(-50%,-50%); 
-	transform: translate(-50%,-50%);
-}
-*/
 
 .container {
   position: relative;
@@ -104,6 +90,7 @@ a:hover {
 	padding-top: 40px;
 }
 
+/*
 input[type=checkbox] {
   display: none;
 }
@@ -114,6 +101,7 @@ label {
   padding: 0.4em 0;
   cursor: pointer;
 }
+*/
 
 /*
 button {
@@ -140,6 +128,7 @@ button:hover {
 }
 */
 
+/*
 input[type=checkbox] + label:before {
   display: inline-block;
   position: relative;
@@ -154,6 +143,7 @@ input[type=checkbox] + label:before {
 input[type=checkbox]:checked + label:before {
   background: #00FFAA;
 }
+*/
 
 .scene {
   padding: 0;

@@ -283,13 +283,12 @@ body.has-active-menu {
 
 .projects {
 	position: fixed;
-	width: 90%;
+	height: 500px;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);
-	overflow: scroll;
 	display: inline;
 }
 
@@ -298,7 +297,7 @@ body.has-active-menu {
 }
 
 .projects img {
-	height: 600px;
+	height: 500px;
 	width: auto;
 }
 

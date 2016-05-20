@@ -290,6 +290,11 @@ body.has-active-menu {
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);
 	overflow: scroll;
+	display: inline;
+}
+
+.projects a {
+	display: inline;
 }
 
 .projects img {

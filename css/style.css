@@ -255,9 +255,9 @@ input[type=checkbox]:checked + label:before {
 
 .logo {
 	position: fixed;
-	width: 110%;
+	width: 100%;
 	text-align: center;
-	left: -10px;
+	left: 0;
 	top: 25px;
 	z-index: 9999;
 }

@@ -47,11 +47,22 @@
    * Initialise Menu.
    */
   Menu.prototype._init = function() {
+    event.preventDefault();
     this.body = document.body;
     this.wrapper = document.querySelector(this.options.wrapper);
     this.mask = document.querySelector(this.options.maskId);
     this.menu = document.querySelector('#c-menu--' + this.options.type);
     this.closeBtn = this.menu.querySelector('.c-menu__close');
+    this.menuOpeners = document.querySelectorAll(this.options.menuOpenerClass);
+    this._initEvents();
+  };
+  
+   Menu.prototype._init = function() {
+    event.preventDefault();
+    this.body = document.body;
+    this.wrapper = document.querySelector(this.options.wrapper);
+    this.mask = document.querySelector(this.options.maskId);
+    this.menu = document.querySelector('#c-menu--' + this.options.type);
     this.closeBtn = this.menu.querySelector('.logo');
     this.menuOpeners = document.querySelectorAll(this.options.menuOpenerClass);
     this._initEvents();

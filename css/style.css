@@ -127,7 +127,7 @@ top: 10px;
 }
 
 .rotated-menu li:first-child {
-	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
 }
 
 .rotated-menu li+li {

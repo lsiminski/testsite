@@ -208,6 +208,7 @@ input[type=checkbox]:checked + label:before {
 	transform: translate(0,-50%);
 	left: 90px;
 	overflow: scroll;
+	background: yellow;
 }
 
 .projects p {
@@ -227,6 +228,7 @@ input[type=checkbox]:checked + label:before {
 .projects ul img {
 	width: auto;
 	height: 500px;
+	padding: 0 30px 0 0;
 	/*
 padding: 0 0 5px 0;
 	margin: 0 5px 0 0;

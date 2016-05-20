@@ -13,14 +13,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
+ /*
+ width: 100%;
   z-index: 1;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
+*/
 }
 
 body { 
@@ -113,6 +109,7 @@ label {
   cursor: pointer;
 }
 
+/*
 button {
   border: 10px solid #00FFAA;
   font-family: monospace;
@@ -135,6 +132,7 @@ button {
 button:hover {
   background: #00FFAA;
 }
+*/
 
 input[type=checkbox] + label:before {
   display: inline-block;

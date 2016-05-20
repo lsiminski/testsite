@@ -73,12 +73,12 @@ top: 10px;
 	position: fixed;
 	bottom: 25px;
 	right: 30px;
-	padding-top: 10px;
 }
 
 .social img {
-	height: 20px;
+	height: 22px;
 	width: auto;
+	padding-top: 10px;
 }
 
 .social-mobile {

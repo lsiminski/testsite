@@ -86,8 +86,8 @@ a:hover {
 
 .container img {
 	width: 200%;
-	top: 0;
-	left: 0;
+	top: 50%;
+	left: 50%;
 	text-align: center;
 	-webkit-transform: translate(-25%,0); 
 	-moz-transform: translate(-25%,0); 

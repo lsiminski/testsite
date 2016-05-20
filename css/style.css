@@ -100,6 +100,7 @@ a:hover {
 	-webkit-transform: translate(-25%,0); 
 	-moz-transform: translate(-25%,0); 
 	transform: translate(-25%,0);
+	padding-top: 40px;
 }
 
 input[type=checkbox] {

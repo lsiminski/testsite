@@ -46,12 +46,12 @@ img {
 	position: fixed;
 	width: 100%;
 	text-align: center;
-	top: 15px;
+	top: 25px;
 	z-index: 9999;
 }
 
 .logo img {
-	width: 40px;
+	width: 50px;
 	height: auto;
 	/*
 top: 10px;
@@ -126,7 +126,7 @@ top: 10px;
 }
 
 .rotated-menu li+li {
-	
+	margin: 0;
 }
 
 .rotated-menu a {

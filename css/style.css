@@ -19,18 +19,72 @@ body {
   height: 100%;
 }
 
-body {
-  color: #6d6d6d;
-  background-color: #fff;
-  font-family: "Oxygen", Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
+
+body { 
+  background-image: url();
+  background-color: white;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+body.first {
+  background-image: url(img/bg_beads.jpg);
+}
+body.second {
+  background-image: url(img/bg_toothpaste.jpg);
+}
+body.third {
+  background-image: url(img/bg_sand.jpg);
+}
+body.fourth {
+  background-image: url(img/bg_film.jpg);
+}
+body.fifth {
+  background-image: url(img/bg_toothpaste.jpg);
+}
+
+a {
+	opacity: 1;
+	/* transition: all .5s ease; */
+	text-decoration: none;
+	color: #5B5B5B;
+}
+
+a:hover {
+	opacity: .6;
+}
+
+.container {
+	width: 75%;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	transform: translate(-50%,-50%);
+}
+
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
 
 .o-wrapper {
   -webkit-transition: -webkit-transform 0.5s;

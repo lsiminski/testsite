@@ -183,6 +183,7 @@ body.has-active-menu {
 .c-menu__close img {
   width: 20px;
   height: auto;
+  margin-left: 10px;
 }
 
 .c-menu__close:focus {

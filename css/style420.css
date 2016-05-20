@@ -66,6 +66,20 @@ top: 10px;
 	height: 20px;
 }
 
+.social {
+	visibility: visible;
+	width: 30px;
+	text-align: center;
+	position: fixed;
+	bottom: 25px;
+	right: 30px;
+}
+
+.social img {
+	height: 25px;
+	width: auto;
+}
+
 .social-mobile {
 	visibility: hidden;
 }

@@ -74,6 +74,10 @@ top: 10px;
 	height: 14px;
 }
 
+.social {
+	visibility: hidden;
+}
+
 .social-mobile {
 	visibility: visible;
 	text-align: center;

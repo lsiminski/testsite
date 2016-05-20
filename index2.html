@@ -52,6 +52,10 @@
 <!-- <div class="nav-mask"></div> --><!-- /nav-mask -->
 
 <script src="js/dist/menu.js"></script>
+<script src="scripts/jquery.js"></script>
+<script src="deploy/jquery.parallax.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script>
 
   var slideTop = new Menu({
@@ -67,6 +71,18 @@
     e.preventDefault;
     slideTop.open();
   });
+  
+  $.getJSON('bg-images.json', function(data) { 
+			
+	console.log(data.bgImages.length);    
+    var randomImage = data.bgImages[Math.floor(Math.random()*data.bgImages.length)];
+	console.log(randomImage);
+    var bgImage = randomImage.src;
+    var bgClass = randomImage.imgClass;
+    $( "body" ).addClass( bgClass );
+  });
+
+  $('#scene').parallax();
 
 </script>
 

@@ -94,6 +94,7 @@ top: 10px;
     width: 440px;
     line-height: 16px;
 	vertical-align: middle;
+	visibility: visible;
 }
 
 .rotated-menu li {

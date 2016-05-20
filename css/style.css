@@ -180,6 +180,11 @@ body.has-active-menu {
   bottom: 20px;
 }
 
+.c-menu__close img {
+  width: 16px;
+  height: auto;
+}
+
 .c-menu__close:focus {
   outline: none;
 }
@@ -246,8 +251,6 @@ body.has-active-menu {
 
 .c-button img {
 	margin: 0 0 0 20px;
-	height: auto;
-	width: 16px;
 }
 
 .c-button:focus {

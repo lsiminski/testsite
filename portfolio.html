@@ -24,27 +24,10 @@
 		<!-- IDK WHAT THIS IS EITHER -->
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<script src="/path/to/isotope.pkgd.min.js"></script>
 		
 	</head>
 
 	<body>
-	
-<div class="grid">
-  <div class="element-item transition metal" data-category="transition">
-    <p class="number">79</p>
-    <h3 class="symbol">Au</h3>
-    <h2 class="name">Gold</h2>
-    <p class="weight">196.966569</p>
-  </div>
-  <div class="element-item metalloid" data-category="metalloid">
-    <p class="number">51</p>
-    <h3 class="symbol">Sb</h3>
-    <h2 class="name">Antimony</h2>
-    <p class="weight">121.76</p>
-  </div>
-</div>
-	
 	 
   <div class="projects">
 				<ul>
@@ -112,26 +95,7 @@
 			  e.preventDefault;
 			  slideTop.open();
 			});
-			
-			$('.grid').isotope({
-				// options
-				itemSelector: '.grid-item',
-				layoutMode: 'fitRows'
-			});
-			
-			var elem = document.querySelector('.grid');
-			var iso = new Isotope( elem, {
-				// options
-				itemSelector: '.grid-item',
-				layoutMode: 'fitRows'
-			});
 
-			// element argument can be a selector string
-			//   for an individual element
-			var iso = new Isotope( '.grid', {
-				// options
-			});
-			
 		</script>
 
   </body>

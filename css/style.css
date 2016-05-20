@@ -95,7 +95,6 @@ a:hover {
 	padding-top: 40px;
 }
 
-/*
 input[type=checkbox] {
   display: none;
 }
@@ -106,7 +105,6 @@ label {
   padding: 0.4em 0;
   cursor: pointer;
 }
-*/
 
 /*
 button {
@@ -133,7 +131,6 @@ button:hover {
 }
 */
 
-/*
 input[type=checkbox] + label:before {
   display: inline-block;
   position: relative;
@@ -148,7 +145,6 @@ input[type=checkbox] + label:before {
 input[type=checkbox]:checked + label:before {
   background: #00FFAA;
 }
-*/
 
 .scene {
   padding: 0;

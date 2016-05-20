@@ -15,7 +15,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		
 		<!-- LINKS -->
-		<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+		<!-- <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" /> -->
+		<link rel="stylesheet" href="css/style.css">
 		
 		<!-- FAVICON -->
 		<link rel="icon" type="image/png" href="http://i61.tinypic.com/205a9vt.png" />
@@ -27,29 +28,8 @@
 	</head>
 
 	<body>
-    	
-    	<div class="logo">
-    		<a href="index.html"><img src="img/ls.gif"></a>
-    	</div>
-    	
-    	<div class="links">
-			<ul>
-			<li><a href="logos.html">Logos</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
-		
-		<div class="socialmedia">
-			<ul>
-			<li><a href="https://www.behance.net/laurensiminski" target="_blank"><img src="http://i66.tinypic.com/a9qolk.png"></a></li>
-			<li><a href="https://www.instagram.com/siminski/"target="_blank"><img src="http://i64.tinypic.com/1088lt4.png"></a></li>
-			<li><a href="https://twitter.com/laurensiminski"target="_blank"><img src="http://i68.tinypic.com/wt9jis.png"></a></li>
-			<li><a href="https://www.linkedin.com/in/laurensiminski"target="_blank"><img src="http://i63.tinypic.com/ms0yn5.png"></a></li>
-			</ul>
-		</div>
-    	
-    	<div class="container-1">
+	
+    	    <div class="container-1">
     		<div class="projects">
 				<ul>
 				<li><a href="lamp.html"><img src="img/lamp-tn.jpg"></a></li>
@@ -66,12 +46,59 @@
 				<li><a href="cd.html"><img src="img/lamp-tn.jpg"></a></li>
 				</ul>
     		</div>
-		</div>
+		    </div>
+		    
+		    <div id="o-wrapper" class="o-wrapper">
+
+  <main class="content">
+  <div id="c-button--slide-top" class="c-button"><img src="img/menu.png"></div>
+  <div class="logo-name"><a href="index.html"><img src="img/laurensiminski.png"></a></div>
+  <div class="gray-bg"></div>
+  <div class="social"><a href="https://www.behance.net/laurensiminski" target="_blank"><img src="img/be.png"></a> <a href="https://www.instagram.com/siminski/" target="_blank"><img src="img/ig.png"></a> <a href="https://twitter.com/laurensiminski" target="_blank"><img src="img/tw.png"></a> <a href="https://www.linkedin.com/in/laurensiminski" target="_blank"><img src="img/li.png"></a></div>
+  </main><!-- /content -->
+
+</div><!-- /o-wrapper -->
+
+<nav id="c-menu--slide-top" class="c-menu c-menu--slide-top">
+
+	<div class="logo"><img src="img/ls.gif"></div>
+
+	<div class="rotated-menu">
+			<li><a href="portfolio.html"><span class="push-left">Portfolio</span></a></li>
+			<li><a href="branding.html">Branding</a></li>
+			<li><a href="digital.html">Digital & Interactive</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><div class="social-mobile"><a href="https://www.behance.net/laurensiminski" target="_blank"><img src="img/be.png"></a> <a href="https://www.instagram.com/siminski/" target="_blank"><img src="img/ig.png"></a> <a href="https://twitter.com/laurensiminski" target="_blank"><img src="img/tw.png"></a> <a href="https://www.linkedin.com/in/laurensiminski" target="_blank"><img src="img/li.png"></a></div></li>
+	</div>
+	
+	<a href="#" class="c-menu__close"><img src="img/menu.png"></a>
+  
+</nav><!-- /c-menu slide-top -->
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
 
 		<!-- PROBABLY IMPORTANT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script src="list.js"></script>
+		<script src="js/dist/menu.js"></script>
+		<script>
+		
+			var slideTop = new Menu({
+			  wrapper: '#o-wrapper',
+			  type: 'slide-top',
+			  menuOpenerClass: '.c-button',
+			  maskId: '#c-mask'
+			});
+
+			var slideTopBtn = document.querySelector('#c-button--slide-top');
+  
+			  slideTopBtn.addEventListener('click', function(e) {
+			  e.preventDefault;
+			  slideTop.open();
+			});
+			
+		</script>
 
   </body>
 

@@ -80,6 +80,15 @@ top: 10px;
 	padding: 10px 0 0 0;
 }
 
+.social-mobile img {
+	height: 40px;
+	width: auto;
+}
+
+.social-mobile img+img {
+	padding-left: 10px;
+}
+
 .gray-bg {
 	visibility: visible;
 	position: fixed;

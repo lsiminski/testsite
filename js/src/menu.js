@@ -77,6 +77,7 @@
    * Open Menu.
    */
   Menu.prototype.open = function() {
+  	event.preventDefault();
     this.body.classList.add('has-active-menu');
     this.wrapper.classList.add('has-' + this.options.type);
     this.menu.classList.add('is-active');
@@ -88,6 +89,7 @@
    * Close Menu.
    */
   Menu.prototype.close = function() {
+  	event.preventDefault();
     this.body.classList.remove('has-active-menu');
     this.wrapper.classList.remove('has-' + this.options.type);
     this.menu.classList.remove('is-active');

@@ -189,7 +189,7 @@ body.has-active-menu {
   position: fixed;
   width: 100%;
   text-align: center;
-  bottom: 30px;
+  bottom: 25px;
 }
 
 .c-menu__close img {

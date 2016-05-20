@@ -68,15 +68,16 @@ top: 10px;
 
 .social {
 	visibility: visible;
-	width: 30px;
+	width: 25px;
 	text-align: center;
 	position: fixed;
 	bottom: 25px;
 	right: 30px;
+	padding-top: 10px;
 }
 
 .social img {
-	height: 25px;
+	height: 20px;
 	width: auto;
 }
 

@@ -97,7 +97,7 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(0deg);
 	position: fixed;
-	width: 80%;
+	width: 100%;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 

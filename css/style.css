@@ -74,6 +74,11 @@ top: 10px;
 	height: 14px;
 }
 
+.social-mobile {
+	visibility: visible;
+	text-align: center;
+}
+
 .gray-bg {
 	visibility: visible;
 	position: fixed;

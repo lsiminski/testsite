@@ -209,7 +209,6 @@ input[type=checkbox]:checked + label:before {
 	transform: translate(-50%,0);
 	top: 80px;;
 	overflow: scroll;
-	background: yellow;
 }
 
 .projects p {

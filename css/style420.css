@@ -222,6 +222,8 @@ body.has-active-menu {
 
 .c-button img {
 	margin: 0 0 0 20px;
+	width: 16px;
+	height: auto;
 }
 
 .c-button:focus {

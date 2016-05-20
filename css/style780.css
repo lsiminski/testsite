@@ -237,7 +237,7 @@ top: 10px;
 
 .logo-name {
 	position: fixed;
-	left: 102px;
+	left: 90px;
 	top: 25px;
 	z-index: 9999;
 }
@@ -406,7 +406,7 @@ body.has-active-menu {
   /* margin: 4px; */
   width: 80px;
   height: 70px;
-  padding: 27px 0 25px 0;
+  padding: 28px 0 25px 0;
   text-align: center;
   background: #fff;
   font-size: 14px;

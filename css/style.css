@@ -63,7 +63,7 @@ top: 10px;
 .logo-name {
 	position: fixed;
 	left: 20%;
-	top: 16px;
+	top: 15px;
 	width: 60%;
 	z-index: 1500;
 	text-align: center;
@@ -71,7 +71,7 @@ top: 10px;
 
 .logo-name img {
 	width: auto;
-	height: 16px;
+	height: 14px;
 }
 
 .gray-bg {

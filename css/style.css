@@ -23,12 +23,6 @@ body {
 */
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
-
 body { 
   background-image: url();
   background-color: white;

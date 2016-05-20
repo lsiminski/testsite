@@ -12,10 +12,12 @@ html {
   box-sizing: border-box;
 }
 
+/*
 img {
 	max-width: 100%;
 	height: auto;
 }
+*/
 
 html,
 body {
@@ -225,7 +227,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .projects ul img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	padding: 0 0 0 0;
 	margin: 0 0 -3px 0;

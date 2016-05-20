@@ -200,8 +200,7 @@ input[type=checkbox]:checked + label:before {
 	width: 6000px;
 	color: white;
 	font-size: 12px;
-	text-align: center;
-	margin: 0 auto;
+	text-align: left;
 	position: absolute;
 	top: 50px;
 	left: 90px;

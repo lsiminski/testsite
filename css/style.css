@@ -207,7 +207,7 @@ input[type=checkbox]:checked + label:before {
 .layer:nth-child(4) button {
 }
 
-.container-1 {
+.projects {
 	font-family: 'Montserrat';
 	width: 60%;
 	color: white;
@@ -218,7 +218,7 @@ input[type=checkbox]:checked + label:before {
 	overflow: scroll;
 }
 
-.container-1 p {
+.projects p {
 	color: black;
 }
 

@@ -86,7 +86,7 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -100px;
+	left: -125px;
 	top: 275px;
 	list-style-type: none;
     margin: auto 0;

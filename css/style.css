@@ -260,6 +260,7 @@ input[type=checkbox]:checked + label:before {
 	left: 0;
 	top: 25px;
 	z-index: 9999;
+	margin-right: 50px;
 }
 
 .logo img {

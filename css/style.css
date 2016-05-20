@@ -83,10 +83,7 @@ top: 10px;
 .social-mobile img {
 	height: 30px;
 	width: auto;
-}
-
-.social-mobile img+img {
-	padding-left: 25px;
+	padding: 0 10px;
 }
 
 .gray-bg {

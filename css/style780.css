@@ -198,16 +198,16 @@ input[type=checkbox]:checked + label:before {
 
 .projects {
 	font-family: 'Montserrat';
-	width: 6000px;
+	width: 90%;
 	color: white;
 	font-size: 12px;
 	text-align: left;
 	position: absolute;
-	top: 50%;
-	-webkit-transform: translate(0,-50%); 
-	-moz-transform: translate(0,-50%); 
-	transform: translate(0,-50%);
-	left: 90px;
+	left: 50%;
+	-webkit-transform: translate(-50%,0); 
+	-moz-transform: translate(-50%,0); 
+	transform: translate(-50%,0);
+	top: 80px;;
 	overflow: scroll;
 	background: yellow;
 }

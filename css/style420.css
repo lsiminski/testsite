@@ -66,6 +66,10 @@ top: 10px;
 	height: 20px;
 }
 
+.social-mobile {
+	visibility: hidden;
+}
+
 .gray-bg {
 	visibility: hidden;
 }

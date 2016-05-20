@@ -297,8 +297,8 @@ body.has-active-menu {
 }
 
 .projects img {
-	height: 500px;
-	width: auto;
+	height: auto;
+	width: 200px;
 }
 
 }

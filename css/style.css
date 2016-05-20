@@ -493,6 +493,7 @@ body.has-active-menu {
   cursor: not-allowed;
 }
 
+/*
 .projects {
 	position: fixed;
 	top: 50%;
@@ -511,5 +512,6 @@ body.has-active-menu {
 	height: auto;
 	width: 200px;
 }
+*/
 
 }

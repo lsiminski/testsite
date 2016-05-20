@@ -198,7 +198,7 @@ input[type=checkbox]:checked + label:before {
 
 .projects {
 	font-family: 'Montserrat';
-	width: 90%;
+	width: 85%;
 	color: white;
 	font-size: 12px;
 	text-align: center;
@@ -227,9 +227,9 @@ input[type=checkbox]:checked + label:before {
 }
 
 .projects ul img {
-	width: 30%;
+	width: 32%;
 	height: auto;
-	padding: 15px;
+	padding: 7.5px;
 	/*
 padding: 0 0 5px 0;
 	margin: 0 5px 0 0;

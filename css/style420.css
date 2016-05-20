@@ -215,6 +215,12 @@ body.has-active-menu {
   top: 0;
 }
 
+.c-button img {
+	margin: 0 0 0 20px;
+	height: auto;
+	width: 16px;
+}
+
 .c-button:focus {
   outline: none;
 }

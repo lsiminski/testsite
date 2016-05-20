@@ -126,6 +126,10 @@ top: 10px;
 	padding: 0 0 75px 0;
 }
 
+.rotated-menu li:first {
+	margin: 0 0 0 5px;
+}
+
 .rotated-menu li+li {
 	margin: 0;
 }

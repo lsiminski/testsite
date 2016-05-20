@@ -213,14 +213,9 @@ input[type=checkbox]:checked + label:before {
 	color: white;
 	font-size: 12px;
 	text-align: center;
-	position: relative;
-	top: 60px;
-	left: 0;
-	-webkit-transform: translate(0,0); 
-	-moz-transform: translate(0,0); 
-	transform: translate(0,0); 
+	position: absolute;
 	margin: 0 auto;
-	padding: 0 0 22px 0;
+	overflow: scroll;
 }
 
 .container-1 p {

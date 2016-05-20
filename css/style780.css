@@ -203,12 +203,14 @@ input[type=checkbox]:checked + label:before {
 
 .container-1 {
 	font-family: 'Montserrat';
-	width: 70%;
+	width: 90%;
 	color: white;
 	font-size: 12px;
 	text-align: center;
 	margin: 0 auto;
 	padding: 60px 0;
+	position: absolute;
+	overflow: scroll;
 }
 
 .container-1 p {

@@ -226,7 +226,6 @@ input[type=checkbox]:checked + label:before {
 	height: auto;
 	padding: 0 0 5px 0;
 	margin: 0 5px 0 0;
-	
 }
 
 /*
@@ -478,6 +477,4 @@ body.has-active-menu {
 .projects img {
 	height: 60%;
 	width: auto;
-}
-
 }

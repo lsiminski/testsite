@@ -226,7 +226,6 @@ input[type=checkbox]:checked + label:before {
 
 .projects li {
 	display: inline;
-	background-color: #1e1e1e;
 }
 
 .projects li:hover {

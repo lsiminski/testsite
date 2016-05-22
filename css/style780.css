@@ -506,11 +506,11 @@ body.has-active-menu {
 	width: 100%;
 	opacity: 0.9;
 	position: relative;
-	left: 50%;
+	left: 0;
 	top: 50%;
-	-webkit-transform: translate(-50%,-50%); 
-	-moz-transform: translate(-50%,-50%); 
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,0); 
+	-moz-transform: translate(-50%,0); 
+	transform: translate(-50%,0);
 	font-family: 'Montserrat';
 	text-align: center;
 	color: white;

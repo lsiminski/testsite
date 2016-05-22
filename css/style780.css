@@ -228,6 +228,11 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 }
 
+.projects li:hover {
+	color: #1e1e1e;
+	opacity: 0.9;
+}
+
 .projects ul img {
 	width: 100%;
 	height: auto;
@@ -515,4 +520,8 @@ body.has-active-menu {
 	text-transform: uppercase;
 	letter-spacing: 1.4px;
 	font-weight: 400;
+}
+
+.koru:hover {
+	z-index: 9999;
 }

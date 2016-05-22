@@ -505,9 +505,6 @@ body.has-active-menu {
 	height: 100%;
 	width: 100%;
 	opacity: 0.9;
-}
-
-.hover-cover .title {
 	left: 0;
 	top: 50%;
 	-webkit-transform: translate(-50%,0); 

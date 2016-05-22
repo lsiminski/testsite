@@ -500,11 +500,10 @@ body.has-active-menu {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
-.koru {
+.koru:hover {
 	height: 100%;
 	width: 100%;
-	opacity: 0.9;
-	position: relative;
+	position: absolute;
 	left: 0;
 	top: 50%;
 	-webkit-transform: translate(0,-50%); 

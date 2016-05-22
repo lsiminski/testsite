@@ -337,7 +337,6 @@ top: 10px;
 	/* vertical-align: middle; */
 }
 
-
 .rotated-menu li {
 	display: block;
 	font-family: 'Montserrat';
@@ -351,7 +350,6 @@ top: 10px;
 	margin: 0;
 	text-align: center;
 	padding: 0 0 45px 0;
-	color: #999999;
 }
 
 .push-left {
@@ -367,12 +365,12 @@ top: 10px;
 }
 
 .rotated-menu a {
-	color: #1e1e1e;
+	color: #999999;
 	text-decoration: none;
 }
 
 .rotated-menu a:hover {
-	color: #1e1e1e;
+	color: #999999;
 }
 
 .c-menu--slide-top {

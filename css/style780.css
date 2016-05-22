@@ -342,7 +342,6 @@ top: 10px;
 	height: 80px;
 	/* padding: 0 0 3px 0; */
 	margin: 0;
-	color: #999999;
 }
 
 .rotated-menu li+li {
@@ -350,12 +349,12 @@ top: 10px;
 }
 
 .rotated-menu a {
-	color: #1e1e1e;
+	color: #999999;
 	text-decoration: none;
 }
 
 .rotated-menu a:hover {
-	color: #1e1e1e;
+	color: #999999;
 }
 
 .c-menu--slide-top {

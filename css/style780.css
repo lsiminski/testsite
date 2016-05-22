@@ -230,10 +230,11 @@ input[type=checkbox]:checked + label:before {
 
 .projects a {
 	opacity: 1;
+	background-color: #1e1e1e;
 }
 
 .projects a:hover {
-	opacity: 0.9;
+	opacity: 0.1;
 }
 
 .projects ul img {

@@ -229,6 +229,10 @@ input[type=checkbox]:checked + label:before {
 }
 
 .projects li:hover {
+	opacity: 1;
+}
+
+.projects a:hover {
 	color: #1e1e1e;
 	opacity: 0.9;
 }

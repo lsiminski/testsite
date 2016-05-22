@@ -507,7 +507,8 @@ body.has-active-menu {
 .koru {
 	height: 100%;
 	width: 100%;
-	left: 0;
+	/*
+left: 0;
 	top: 50%;
 	-webkit-transform: translate(0,-50%); 
 	-moz-transform: translate(0,-50%); 
@@ -519,9 +520,11 @@ body.has-active-menu {
 	text-transform: uppercase;
 	letter-spacing: 1.4px;
 	font-weight: 400;
+*/
 	background-color: #1e1e1e;
 }
 
 .koru:hover {
 	z-index: 9999;
+	background-color: #1e1e1e;
 }

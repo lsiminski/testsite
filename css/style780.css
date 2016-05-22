@@ -229,13 +229,16 @@ input[type=checkbox]:checked + label:before {
 }
 
 .projects li:hover {
-	opacity: 1;
+	background-color: #1e1e1e;
+	opacity: 0.9;
 }
 
+/*
 .projects a:hover {
 	background-color: #1e1e1e;
 	opacity: 0.9;
 }
+*/
 
 .projects ul img {
 	width: 100%;

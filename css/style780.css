@@ -505,22 +505,6 @@ body.has-active-menu {
 */
 
 .koru {
-	height: 100%;
-	width: 100%;
-	/*
-left: 0;
-	top: 50%;
-	-webkit-transform: translate(0,-50%); 
-	-moz-transform: translate(0,-50%); 
-	transform: translate(0,-50%);
-	font-family: 'Montserrat';
-	text-align: center;
-	color: white;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1.4px;
-	font-weight: 400;
-*/
 	background-color: #1e1e1e;
 }
 

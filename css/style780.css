@@ -508,12 +508,13 @@ body.has-active-menu {
 }
 
 .hover-cover .title {
-	left: 50%;
+	left: 0;
 	top: 50%;
-	-webkit-transform: translate(-50%,-50%); 
-	-moz-transform: translate(-50%,-50%); 
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,0); 
+	-moz-transform: translate(-50%,0); 
+	transform: translate(-50%,0);
 	font-family: 'Montserrat';
+	text-align: center;
 	color: white;
 	font-size: 14px;
 	text-transform: uppercase;

@@ -305,7 +305,7 @@ top: 10px;
 	position: fixed;
 	top: 0;
 	left: 0;
-	color: #f2f2f2;
+	color: #fff;
 	height: 50px;
 	width: 100%;
 	z-index: 999;
@@ -314,7 +314,7 @@ top: 10px;
 .c-menu {
   position: fixed;
   z-index: 2000;
-  background-color: #f2f2f2;
+  background-color: #fff;
   -webkit-transition: -webkit-transform 0.5s;
           transition: transform 0.5s;
   /* border-top: white 80px solid; */
@@ -462,7 +462,7 @@ body.has-active-menu {
   height: 50px;
   padding: 15px 0;
   text-align: left;
-  background: #f2f2f2;
+  background: #fff;
   font-size: 14px;
   box-shadow: none;
   border-radius: none;

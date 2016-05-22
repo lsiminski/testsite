@@ -228,6 +228,14 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 }
 
+.projects a {
+	opacity: 1;
+}
+
+.projects a:hover {
+	opacity: 0.9;
+}
+
 .projects ul img {
 	width: 100%;
 	height: auto;

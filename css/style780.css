@@ -545,7 +545,7 @@ body.has-active-menu {
 	top: 30px;
 	left: 3.5%;
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1.4px;
@@ -558,8 +558,6 @@ body.has-active-menu {
 	right: 3.5%;
 	font-family: 'Montserrat';
 	font-size: 14px;
-	line-height: 16px;
-	vertical-align: middle;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1.4px;

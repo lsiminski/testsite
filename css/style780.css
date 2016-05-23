@@ -521,25 +521,6 @@ body.has-active-menu {
 	display: none;
 }
 
-.koru-hover {
-	background-color: white;
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	position: absolute;
-	width: 80%;
-	height: auto;
-	top: 80px;
-	z-index: 99999;
-	margin: 0 auto;
-	left: 10%;
-	display: none;
-}
-
 .project-title {
 	position: absolute;
 	top: 30px;
@@ -585,4 +566,194 @@ body.has-active-menu {
 
 .project-container img+img {
 	padding-top: 15px;
+}
+
+.koru-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.typehype-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.adulting-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.tamed-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.lamp-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.magic8-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.etsy-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.calendar-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.blacklight-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.tastefulcollecting-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
 }

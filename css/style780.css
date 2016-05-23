@@ -568,6 +568,5 @@ body.has-active-menu {
 
 .project-container {
 	width: 94%;
-	left: 3%;
-	top: 40px;
+	margin: 40px auto;
 }

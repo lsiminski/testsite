@@ -512,4 +512,271 @@ body.has-active-menu {
 }
 */
 
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+.fade {
+	background-color: #1e1e1e;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.95;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 8888;
+	display: none;
+}
+
+.project-title {
+	position: absolute;
+	top: 15px;
+	left: 3.5%;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: #565656;
+}
+
+.close-window {
+	position: absolute;
+	top: 15px;
+	right: 3.5%;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	color: #999999;
+}
+
+.project-container {
+	width: 96%;
+	margin: 25px auto 15px auto;
+}
+
+.project-container p {
+	font-family: 'Montserrat';
+	font-size: 13.5px;
+	line-height: 23px;
+	letter-spacing: 0.4px;
+	text-align: justify;
+	color: #565656;
+}
+
+.project-container img {
+	width: 100%;
+	height: auto;
+	padding: 15px 0;
+}
+
+.adulting-hover img {
+	padding: 3px 0;
+}
+
+.project-container img:first-child {
+	padding-top: 0;
+}
+
+.koru-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.typehype-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.adulting-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.tamed-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.lamp-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.magic8-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.etsy-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.calendar-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.blacklight-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
+.tastefulcollecting-hover {
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 80px;
+	z-index: 99999;
+	margin: 0 auto;
+	left: 10%;
+	display: none;
+}
+
 }

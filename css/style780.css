@@ -504,13 +504,10 @@ body.has-active-menu {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
-/*
-.koru {
+.fade {
 	background-color: #1e1e1e;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	position: fixed;
 }
-
-.koru:hover {
-	z-index: 9999;
-	background-color: #1e1e1e;
-}
-*/

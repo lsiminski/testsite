@@ -557,7 +557,9 @@ body.has-active-menu {
 	top: 20px;
 	right: 3%;
 	font-family: 'Montserrat';
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	vertical-align: middle;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1.4px;

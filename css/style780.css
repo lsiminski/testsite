@@ -554,7 +554,7 @@ body.has-active-menu {
 
 .close-window {
 	position: absolute;
-	top: 20px;
+	top: 30px;
 	right: 3%;
 	font-family: 'Montserrat';
 	font-size: 14px;
@@ -568,13 +568,13 @@ body.has-active-menu {
 
 .project-container {
 	width: 94%;
-	margin: 60px auto 20px auto;
+	margin: 70px auto 35px auto;
 }
 
 .project-container p {
 	font-family: 'Montserrat';
 	font-size: 13.5px;
-	line-height: 22px;
+	line-height: 23px;
 	letter-spacing: 0.4px;
 	text-align: justify;
 }

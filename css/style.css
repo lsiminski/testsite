@@ -540,7 +540,7 @@ body.has-active-menu {
 .project-title {
 	position: absolute;
 	top: 15px;
-	left: 2%;
+	left: 5%;
 	font-family: 'Montserrat';
 	font-size: 14px;
 	font-weight: 700;
@@ -552,7 +552,7 @@ body.has-active-menu {
 .close-window {
 	position: absolute;
 	top: 15px;
-	right: 2%;
+	right: 5%;
 	font-family: 'Montserrat';
 	font-size: 14px;
 	font-weight: 400;
@@ -562,7 +562,7 @@ body.has-active-menu {
 }
 
 .project-container {
-	width: 96%;
+	width: 90%;
 	margin: 50px auto 15px auto;
 }
 
@@ -601,7 +601,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -620,7 +620,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -639,7 +639,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -658,7 +658,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -677,7 +677,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -696,7 +696,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -715,7 +715,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -734,7 +734,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -753,7 +753,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;
@@ -772,7 +772,7 @@ body.has-active-menu {
 	position: absolute;
 	width: 90%;
 	height: auto;
-	top: 30px;
+	top: 20px;
 	z-index: 99999;
 	margin: 0 auto;
 	left: 5%;

@@ -565,6 +565,12 @@ body.has-active-menu {
 	padding: 15px 0;
 }
 
+.adulting-hover .project-container img {
+	width: 100%;
+	height: auto;
+	padding: 5px 0;
+}
+
 .project-container img:first-child {
 	padding-top: 0;
 }

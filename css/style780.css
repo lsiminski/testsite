@@ -518,7 +518,7 @@ body.has-active-menu {
 	height: 100%;
 	position: fixed;
 	z-index: 8888;
-	visibility: hidden;
+	display: none;
 }
 
 .koru-hover {
@@ -537,5 +537,5 @@ body.has-active-menu {
 	z-index: 99999;
 	margin: 0 auto;
 	left: 10%;
-	visibility: hidden;
+	display: none;
 }

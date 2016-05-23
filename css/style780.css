@@ -570,3 +570,10 @@ body.has-active-menu {
 	width: 94%;
 	margin: 60px auto 20px auto;
 }
+
+.project-container p {
+	font-family: 'Montserrat';
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+}

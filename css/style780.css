@@ -532,7 +532,8 @@ body.has-active-menu {
 	position: absolute;
 	width: 80%;
 	height: auto;
-	top: 50px;
+	top: 100px;
 	z-index: 99999;
 	margin: 0 auto;
+	left: 10%;
 }

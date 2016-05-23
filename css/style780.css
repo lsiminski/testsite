@@ -87,20 +87,21 @@ a:hover {
 */
 
 .container {
-  position: relative;
+  position: fixed;
   width: 1050px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 5%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%); 
+  -moz-transform: translate(-50%,-50%); 
+  transform: translate(-50%,-50%);
 }
 
 .container img {
 	width: 100%;
-	top: 0;
-	left: 0;
-	text-align: center;
-	-webkit-transform: translate(0,0); 
-	-moz-transform: translate(0,0); 
-	transform: translate(0,0);
+	height: auto;
 }
 
 /*

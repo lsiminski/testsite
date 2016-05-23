@@ -520,7 +520,7 @@ body.has-active-menu {
 	z-index: 8888;
 }
 
-.koru {
+.koru-hover {
 	background-color: white;
 	position: absolute;
 	width: 80%;

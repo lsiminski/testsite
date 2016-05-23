@@ -543,7 +543,7 @@ body.has-active-menu {
 .project-title {
 	position: absolute;
 	top: 30px;
-	left: 5%;
+	left: 3.5%;
 	font-family: 'Montserrat';
 	font-size: 16px;
 	font-weight: 700;
@@ -555,7 +555,7 @@ body.has-active-menu {
 .close-window {
 	position: absolute;
 	top: 30px;
-	right: 5%;
+	right: 3.5%;
 	font-family: 'Montserrat';
 	font-size: 14px;
 	line-height: 16px;
@@ -567,7 +567,7 @@ body.has-active-menu {
 }
 
 .project-container {
-	width: 90%;
+	width: 93%;
 	margin: 70px auto 35px auto;
 }
 

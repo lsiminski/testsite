@@ -567,11 +567,12 @@ body.has-active-menu {
 }
 
 .project-container p {
-	font-family: 'Montserrat';
-	font-size: 13.5px;
-	line-height: 23px;
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 24px;
 	letter-spacing: 0.4px;
 	text-align: left;
+	font-weight: 400;
 	color: #565656;
 }
 

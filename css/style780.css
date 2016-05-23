@@ -235,6 +235,8 @@ input[type=checkbox]:checked + label:before {
 .projects a:hover {
 	opacity: 0.9;
 	background-color: #1e1e1e;
+	height: 100%;
+	width: 100%;
 }
 
 .projects ul img {

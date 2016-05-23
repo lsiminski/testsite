@@ -565,3 +565,10 @@ body.has-active-menu {
 	letter-spacing: 1.4px;
 	color: #999999;
 }
+
+.project-container {
+	width: 94%;
+	position: absolute;
+	left: 3%;
+	top: 40px;
+}

@@ -551,11 +551,12 @@ body.has-active-menu {
 }
 
 .project-container p {
-	font-family: 'Montserrat';
+	font-family: 'Roboto';
 	font-size: 16px;
-	line-height: 32px;
-	letter-spacing: 0.7px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
 	text-align: justify;
+	font-weight: 300;
 	color: #565656;
 }
 

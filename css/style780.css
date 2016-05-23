@@ -518,6 +518,11 @@ body.has-active-menu {
 	height: 100%;
 	position: fixed;
 	z-index: 8888;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	top: 20px;
+	color: white;
+	right: 25px;
 }
 
 .koru-hover {

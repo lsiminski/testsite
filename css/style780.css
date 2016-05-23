@@ -580,5 +580,9 @@ body.has-active-menu {
 .project-container img {
 	width: 100%;
 	height: auto;
-	padding: 10px 0;
+	padding-bottom: 10px;
+}
+
+.project-container img+img {
+	padding-top: 10px;
 }

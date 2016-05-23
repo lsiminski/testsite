@@ -551,3 +551,15 @@ body.has-active-menu {
 	letter-spacing: 1.4px;
 	color: #999999;
 }
+
+.close-window {
+	position: absolute;
+	top: 20px;
+	right: 3%;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	color: #999999;
+}

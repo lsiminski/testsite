@@ -353,12 +353,12 @@ top: 10px;
 }
 
 .rotated-menu a {
-	color: #999999;
+	color: #565656;
 	text-decoration: none;
 }
 
 .rotated-menu a:hover {
-	color: #999999;
+	color: #565656;
 }
 
 .c-menu--slide-top {
@@ -529,8 +529,8 @@ body.has-active-menu {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1.3px;
-	color: #1e1e1e;
+	letter-spacing: 1.2px;
+	color: #565656;
 }
 
 .close-window {

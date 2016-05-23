@@ -568,10 +568,6 @@ body.has-active-menu {
 	padding-top: 0;
 }
 
-.project-container img:last-child {
-	padding-bottom: 0;
-}
-
 .koru-hover {
 	background-color: white;
 	background-attachment: fixed;

@@ -552,9 +552,9 @@ body.has-active-menu {
 
 .project-container p {
 	font-family: 'Montserrat';
-	font-size: 13.5px;
-	line-height: 23px;
-	letter-spacing: 0.4px;
+	font-size: 15.5px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
 	text-align: justify;
 	color: #565656;
 }

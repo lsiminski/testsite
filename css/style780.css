@@ -593,6 +593,10 @@ body.has-active-menu {
 	padding-bottom: 0;
 }
 
+.project-container iframe {
+	padding-top: 30px;
+}
+
 .koru-hover {
 	background-color: white;
 	background-attachment: fixed;

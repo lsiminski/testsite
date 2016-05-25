@@ -492,11 +492,11 @@ body.has-active-menu {
 */
 
 .c-mask {
-  position: absolute;
+  position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
-  overflow: scroll;
+  overflow: hidden;
   width: 0;
   height: 0;
   background-color: #1e1e1e;
@@ -511,7 +511,6 @@ body.has-active-menu {
   opacity: 0.8;
   -webkit-transition: opacity 0.5s;
           transition: opacity 0.5s;
-  overflow: scroll;
 }
 
 .c-buttons {

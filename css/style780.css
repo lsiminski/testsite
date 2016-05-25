@@ -334,7 +334,7 @@ top: 10px;
 .logo-name {
 	position: fixed;
 	left: 80px;
-	top: 20px;
+	top: 22px;
 	z-index: 8888;
 }
 
@@ -348,8 +348,8 @@ top: 10px;
 	width: 25px;
 	text-align: center;
 	position: fixed;
-	bottom: 25px;
-	right: 30px;
+	bottom: 10px;
+	right: 15px;
 	 z-index: 8888;
 }
 

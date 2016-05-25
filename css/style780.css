@@ -339,13 +339,13 @@ top: 10px;
 	left: 30%;
 	top: 3px;
 	z-index: 8888;
-	line-height: 30px;
-	vertical-align: middle;
+	/* line-height: 30px; */
+	/* vertical-align: middle; */
 }
 
 .logo-name img {
 	width: auto;
-	height: 13px;
+	height: 18px;
 }
 
 .social {

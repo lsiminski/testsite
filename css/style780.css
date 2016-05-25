@@ -356,9 +356,9 @@ top: 10px;
 }
 
 .social img {
-	height: 18px;
+	height: 16px;
 	width: auto;
-	margin: 6px 0px 0px 0px;
+	margin: 6px 0 0 0;
 	padding: 0;
 }
 

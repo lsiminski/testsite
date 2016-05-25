@@ -664,6 +664,21 @@ body.has-active-menu {
 	padding-top: 15px;
 }
 
+.viewfull {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 10.5px;
+	letter-spacing: 1.5px;
+	color: #999999;
+	font-weight: 400;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	bottom: 2px;
+	line-height: 30px;
+	z-index: 9999;
+}
+
 .koru-hover {
 	background-color: white;
 	background-attachment: fixed;

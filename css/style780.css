@@ -225,7 +225,7 @@ input[type=checkbox]:checked + label:before {
 	top: 100px;
 	overflow: scroll;
 	margin-bottom: 100px;
-	z-index: 100;
+	z-index: 10;
 }
 
 .projects p {
@@ -267,7 +267,7 @@ input[type=checkbox]:checked + label:before {
 .o-wrapper {
   -webkit-transition: -webkit-transform 0.5s;
           transition: transform 0.5s;
-  z-index: 9988;
+  z-index: 9950;
 }
 
 .border-top {
@@ -276,7 +276,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 888;
+	z-index: 20;
 	background-color: white;
 }
 
@@ -286,7 +286,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 888;
+	z-index: 20;
 	background-color: white;
 }
 
@@ -296,7 +296,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 888;
+	z-index: 20;
 	background-color: white;
 }
 
@@ -306,7 +306,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	right: 0;
-	z-index: 888;
+	z-index: 20;
 	background-color: white;
 }
 

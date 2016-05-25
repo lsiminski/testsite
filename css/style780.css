@@ -356,8 +356,8 @@ top: 10px;
 	font-weight: 400;
 	position: fixed;
 	left: 30px;
-	bottom: 3px;
-	line-height: 18px;
+	bottom: 3.5px;
+	line-height: 30px;
 	z-index: 8888;
 }
 

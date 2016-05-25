@@ -225,6 +225,7 @@ input[type=checkbox]:checked + label:before {
 	top: 100px;
 	overflow: scroll;
 	margin-bottom: 100px;
+	z-index: 1;
 }
 
 .projects p {

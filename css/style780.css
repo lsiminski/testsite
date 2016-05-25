@@ -477,7 +477,7 @@ body.has-active-menu {
   z-index: 100;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: scroll;
   width: 0;
   height: 0;
   /* background-color: #1e1e1e; */

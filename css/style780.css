@@ -347,19 +347,19 @@ top: 10px;
 
 .social {
 	visibility: visible;
-	width: 30px;
 	text-align: center;
+	padding: 0;
 	position: fixed;
-	bottom: 8px;
-	right: 0;
+	line-height: 18px;
+	right: 8px;
+	bottom: 6px;
 	z-index: 8888;
 }
 
 .social img {
-	height: 16px;
+	height: 18px;
 	width: auto;
-	margin: 6px 0 0 0;
-	padding: 0;
+	padding: 0 7px;
 }
 
 .social-mobile {

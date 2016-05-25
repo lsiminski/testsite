@@ -318,12 +318,12 @@ input[type=checkbox]:checked + label:before {
 .logo {
 	position: fixed;
 	left: 8px;
-	top: 35px;
+	top: 45px;
 /* 	z-index: 9999; */
 }
 
 .logo img {
-	width: 45px;
+	width: 55px;
 	height: auto;
 	/*
 top: 10px;
@@ -333,7 +333,7 @@ top: 10px;
 
 .logo-name {
 	position: fixed;
-	left: 40px;
+	left: 32px;
 	top: 3px;
 	z-index: 8888;
 	line-height: 30px;
@@ -382,7 +382,7 @@ top: 10px;
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
 	left: -157px;
-	top: 255px;
+	top: 265px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;

@@ -357,7 +357,7 @@ top: 10px;
 	position: fixed;
 	left: 30px;
 	bottom: 3px;
-	line-height: 30px;
+	line-height: 18px;
 	vertical-align: middle;
 	z-index: 8888;
 }
@@ -367,6 +367,7 @@ top: 10px;
 	text-align: center;
 	padding: 0;
 	position: fixed;
+	vertical-align: middle;
 	line-height: 18px;
 	right: 22px;
 	bottom: 3px;

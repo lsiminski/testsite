@@ -334,8 +334,10 @@ top: 10px;
 .logo-name {
 	position: fixed;
 	left: 60px;
-	top: 7.8px;
+	top: 0px;
 	z-index: 8888;
+	line-height: 30px;
+	vertical-align: middle;
 }
 
 .logo-name img {

@@ -334,13 +334,13 @@ top: 10px;
 .logo-name {
 	position: fixed;
 	left: 80px;
-	top: 22px;
+	top: 5px;
 	z-index: 8888;
 }
 
 .logo-name img {
 	width: auto;
-	height: 20px;
+	height: 10px;
 }
 
 .social {

@@ -352,11 +352,11 @@ top: 10px;
 	position: fixed;
 	bottom: 8px;
 	right: 0;
-	 z-index: 8888;
+	z-index: 8888;
 }
 
 .social img {
-	height: 20px;
+	height: 18px;
 	width: auto;
 	margin-top: 6px;
 }

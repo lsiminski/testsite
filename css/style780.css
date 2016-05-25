@@ -333,7 +333,7 @@ top: 10px;
 
 .logo-name {
 	position: fixed;
-	left: 30px;
+	left: 32px;
 	top: 3px;
 	z-index: 8888;
 	line-height: 30px;
@@ -347,16 +347,16 @@ top: 10px;
 
 .social {
 	visibility: visible;
-	width: 25px;
+	width: 30px;
 	text-align: center;
 	position: fixed;
-	bottom: 18px;
-	right: 18px;
+	bottom: 8px;
+	right: 0;
 	 z-index: 8888;
 }
 
 .social img {
-	height: 22px;
+	height: 20px;
 	width: auto;
 	margin-top: 6px;
 }

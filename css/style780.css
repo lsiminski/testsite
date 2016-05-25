@@ -225,7 +225,6 @@ input[type=checkbox]:checked + label:before {
 	top: 100px;
 	overflow: scroll;
 	margin-bottom: 100px;
-	z-index: 1;
 }
 
 .projects p {
@@ -236,7 +235,6 @@ input[type=checkbox]:checked + label:before {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	z-index: 1;
 }
 
 .projects li {
@@ -268,7 +266,7 @@ input[type=checkbox]:checked + label:before {
 .o-wrapper {
   -webkit-transition: -webkit-transform 0.5s;
           transition: transform 0.5s;
-  z-index: 9950;
+  z-index: 8888;
 }
 
 .border-top {
@@ -277,7 +275,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	/* z-index: 20; */
+	z-index: 7777;
 	background-color: white;
 }
 
@@ -287,7 +285,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	/* z-index: 20; */
+	z-index: 7777;
 	background-color: white;
 }
 
@@ -297,7 +295,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	/* z-index: 20; */
+	z-index: 7777;
 	background-color: white;
 }
 
@@ -307,7 +305,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	right: 0;
-	/* z-index: 20; */
+	z-index: 7777;
 	background-color: white;
 }
 
@@ -321,7 +319,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	left: 5px;
 	top: 15px;
-	z-index: 9999;
+/* 	z-index: 9999; */
 }
 
 .logo img {
@@ -337,7 +335,7 @@ top: 10px;
 	position: fixed;
 	left: 90px;
 	top: 25px;
-	z-index: 9950;
+	z-index: 8888;
 }
 
 .logo-name img {
@@ -370,7 +368,7 @@ top: 10px;
 
 .c-menu {
   position: fixed;
-  z-index: 200;
+  z-index: 8888;
   background-color: #fff;
   -webkit-transition: -webkit-transform 0.5s;
           transition: transform 0.5s;
@@ -472,28 +470,6 @@ body.has-active-menu {
 	z-index: 2000;
 }
 */
-
-.c-mask {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-  /* background-color: #1e1e1e; */
-  opacity: 0;
-  -webkit-transition: opacity 0.5s, width 0s 0.5s, height 0s 0.5s;
-          transition: opacity 0.5s, width 0s 0.5s, height 0s 0.5s;
-}
-
-.c-mask.is-active {
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  -webkit-transition: opacity 0.5s;
-          transition: opacity 0.5s;
-}
 
 .c-buttons {
   margin-bottom: 48px;

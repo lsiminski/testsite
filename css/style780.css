@@ -448,7 +448,7 @@ body.has-active-menu {
   width: 30px;
   text-align: center;
   left: 0;
-  bottom: 10px;
+  bottom: 8px;
 }
 
 .c-menu__close img {
@@ -504,7 +504,7 @@ body.has-active-menu {
   /* margin: 4px; */
   width: 30px;
   height: 30px;
-  margin-top: 3px;
+  /* margin-top: 3px; */
 /*
   line-height: 30px;
   vertical-align: middle;
@@ -520,7 +520,7 @@ body.has-active-menu {
   /* margin: 80px 0 0 0; */
   position: fixed;
   left: 0;
-  top: 10px;
+  top: 8px;
    z-index: 8888;
 }
 

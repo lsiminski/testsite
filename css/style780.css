@@ -541,7 +541,7 @@ body.has-active-menu {
   position: fixed;
   left: 0;
   top: 8px;
-   z-index: 8888;
+   z-index: 7777;
 }
 
 .c-button img {

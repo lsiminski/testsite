@@ -275,7 +275,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 20;
+	/* z-index: 20; */
 	background-color: white;
 }
 
@@ -285,7 +285,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	z-index: 20;
+	/* z-index: 20; */
 	background-color: white;
 }
 
@@ -295,7 +295,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 20;
+	/* z-index: 20; */
 	background-color: white;
 }
 
@@ -305,7 +305,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	top: 0;
 	right: 0;
-	z-index: 20;
+	/* z-index: 20; */
 	background-color: white;
 }
 

@@ -379,7 +379,7 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -152px;
+	left: -157px;
 	top: 250px;
 	list-style-type: none;
     margin: auto 0;
@@ -419,7 +419,7 @@ top: 10px;
 
 .c-menu--slide-top {
   vertical-align: middle;
-  width: 40px;
+  width: 30px;
   height: 100%;
   text-align: center;
   /* overflow-x: scroll; */

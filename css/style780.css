@@ -335,6 +335,7 @@ top: 10px;
 	position: fixed;
 	width: 40%;
 	background-color: yellow;
+	text-align: center;
 	left: 30%;
 	top: 3px;
 	z-index: 8888;

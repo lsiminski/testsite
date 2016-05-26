@@ -394,18 +394,14 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(0deg);
 	position: fixed;
-	width: 98%;
 	top: 50%;
-	left: 49%;
+	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
 	-moz-transform: translate(-50%,-50%); 
 	transform: translate(-50%,-50%);
 	list-style-type: none;
-   /*  margin: auto 0; */
     padding: 35px 0 0 0;
-   /*  width: 440px; */
     line-height: 16px;
-	/* vertical-align: middle; */
 }
 
 .rotated-menu li {

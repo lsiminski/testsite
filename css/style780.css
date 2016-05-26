@@ -674,7 +674,7 @@ body.has-active-menu {
 	width: 93%;
 	position:relative;
 	text-align: center;
-	margin: 30px 0;
+	margin: 25px 0 30px 0;
 	z-index: 9999;
 }
 

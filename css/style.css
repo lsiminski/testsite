@@ -546,12 +546,12 @@ width: 100%;
   /* margin: 0 0 0 20px; */
   position: fixed;
   left: 0;
-  top: 2px;
+  top: 0;
   z-index: 7788;
 }
 
 .c-button img {
-	margin: 0 0 0 15px;
+	margin: 3px 0 0 15px;
 	width: 14px;
 	height: auto;
 }

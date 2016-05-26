@@ -516,7 +516,7 @@ body.has-active-menu {
   z-index: 100;
   top: 0;
   left: 0;
-  overflow: scroll;
+  overflow: hidden;
   width: 0;
   height: 0;
   background-color: transparent;

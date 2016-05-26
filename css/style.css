@@ -349,7 +349,7 @@ top: 10px;
 	color: #999999;
 	font-weight: 400;
 	position: fixed;
-	bottom: 30px;
+	bottom: 40px;
 	line-height: 30px;
 	z-index: 8888;
 	visibility: visible;
@@ -487,11 +487,11 @@ body.has-active-menu {
   position: fixed;
   text-align: center;
   width: 100%;
-  bottom: 10.5px;
+  bottom: 11px;
 }
 
 .c-menu__close img {
-  width: 14px;
+  width: 16px;
   height: auto;
   /* margin-left: 10px; */
 }

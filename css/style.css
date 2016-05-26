@@ -487,11 +487,11 @@ body.has-active-menu {
   position: fixed;
   text-align: center;
   width: 100%;
-  bottom: 60px;
+  bottom: 70px;
 }
 
 .c-menu__close img {
-  width: 20px;
+  width: 22px;
   height: auto;
   /* margin-left: 10px; */
 }

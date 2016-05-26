@@ -319,7 +319,7 @@ input[type=checkbox]:checked + label:before {
 	position: fixed;
 	left: 8px;
 	top: 40px;
-/* 	z-index: 9999; */
+	z-index: 9988;
 }
 
 .logo img {

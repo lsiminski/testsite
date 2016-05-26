@@ -719,7 +719,7 @@ body.has-active-menu {
 }
 
 .adulting-hover {
-	background-color: white;
+	background-color: #f2f2f2;
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -738,7 +738,7 @@ body.has-active-menu {
 }
 
 .tamed-hover {
-	background-color: white;
+	background-color: #f2f2f2;
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;

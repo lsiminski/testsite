@@ -353,7 +353,6 @@ top: 10px;
 	line-height: 30px;
 	z-index: 8888;
 	visibility: visible;
-	background-color: pink;
 }
 
 .social {
@@ -489,7 +488,6 @@ body.has-active-menu {
   text-align: center;
   width: 100%;
   bottom: 10.5px;
-  background-color: yellow;
 }
 
 .c-menu__close img {

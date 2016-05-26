@@ -502,7 +502,7 @@ body.has-active-menu {
   overflow: scroll;
   width: 0;
   height: 0;
-  /* background-color: #1e1e1e; */
+  background-color: transparent;
   opacity: 0;
   -webkit-transition: opacity 0.5s, width 0s 0.5s, height 0s 0.5s;
           transition: opacity 0.5s, width 0s 0.5s, height 0s 0.5s;

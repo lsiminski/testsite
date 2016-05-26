@@ -882,4 +882,23 @@ body.has-active-menu {
 	display: none;
 }
 
+.logos-hover {
+	background-color: #f2f2f2;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 90%;
+	height: auto;
+	top: 25px;
+	z-index: 99999;
+	margin: 0 auto 25px auto;
+	left: 5%;
+	display: none;
+}
+
 }

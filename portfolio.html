@@ -190,6 +190,24 @@
 		<img src="img/projects/TC-7.jpg">
 		</div>
 	</div>
+	<div class="logos-hover">
+		<div class="close-window"><a href="#">x</a></div>
+		<div class="project-title"><a name="top">Logos</a></div>
+		
+		<div class="project-container">
+		<img src="img/projects/logos-koru.jpg">
+		<img src="img/projects/logos-loyal.jpg">
+		<img src="img/projects/logos-etsy.jpg">
+		<img src="img/projects/logos-mdr.jpg">
+		<img src="img/projects/logos-tamed.jpg">
+		<img src="img/projects/logos-sos.jpg">
+		<img src="img/projects/logos-magic8.jpg">
+		<img src="img/projects/logos-zaffire.jpg">
+		<img src="img/projects/logos-bcm.jpg">
+		<img src="img/projects/logos-lotame.jpg">
+		<img src="img/projects/logos-al.jpg">
+		</div>
+	</div>
 	 
   <div class="projects">
 				<ul>
@@ -270,6 +288,7 @@
 			  $('.calendar-hover').hide();
 			  $('.blacklight-hover').hide();
 			  $('.tastefulcollecting-hover').hide();
+			  $('.logos-hover').hide();
 			  $('.fade').hide();
 		 
 			});
@@ -286,6 +305,7 @@
 			  $('.calendar-hover').hide();
 			  $('.blacklight-hover').hide();
 			  $('.tastefulcollecting-hover').hide();
+			  $('.logos-hover').hide();
 			  $('.fade').hide();
 		 
 			});
@@ -345,6 +365,12 @@
 			});
 			
 			$(".tastefulcollecting a").click(function(event) {
+			  event.preventDefault();
+			  $('.fade').show();
+			  $('.tastefulcollecting-hover').show(); 
+			});
+			
+			$(".logos a").click(function(event) {
 			  event.preventDefault();
 			  $('.fade').show();
 			  $('.tastefulcollecting-hover').show(); 

@@ -44,7 +44,7 @@ body {
 }
 
 body.first {
-  background-image: url('../img/bg_beads.jpg');
+  background-image: url('../img/bg_sand.jpg');
 }
 body.second {
   background-image: url('../img/bg_toothpaste.jpg');

@@ -398,12 +398,12 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(-90deg);
 	position: absolute;
-	left: -157px;
+	left: -147px;
 	top: 275px;
 	list-style-type: none;
     margin: auto 0;
     padding: 0 0 1px 0;
-    width: 440px;
+    width: 460px;
     line-height: 16px;
 	vertical-align: middle;
 	visibility: visible;

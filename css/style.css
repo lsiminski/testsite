@@ -485,7 +485,8 @@ body.has-active-menu {
 
 .c-menu__close {
   position: fixed;
-  text-align: left;
+  text-align: center;
+  width: 100%;
   bottom: 10.5px;
   left: 15px;
 }

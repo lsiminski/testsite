@@ -394,6 +394,7 @@ top: 10px;
 .rotated-menu {
 	-webkit-transform: rotate(0deg);
 	position: fixed;
+	height: 100%;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%); 
@@ -416,6 +417,19 @@ top: 10px;
 	margin: 0;
 	text-align: center;
 	padding: 0 0 45px 0;
+}
+
+.rotated-menu li+li {
+	padding-left: 0;
+}
+
+.rotated-menu a {
+	color: #565656;
+	text-decoration: none;
+}
+
+.rotated-menu a:hover {
+	color: #565656;
 }
 
 .push-left {

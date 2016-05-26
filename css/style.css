@@ -484,13 +484,13 @@ body.has-active-menu {
 
 .c-menu__close {
   position: fixed;
-  width: 100%;
-  text-align: center;
-  bottom: 25px;
+  text-align: left;
+  bottom: 10.5px;
+  left: 15px;
 }
 
 .c-menu__close img {
-  width: 18px;
+  width: 14px;
   height: auto;
   /* margin-left: 10px; */
 }

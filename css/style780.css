@@ -674,7 +674,7 @@ body.has-active-menu {
 	width: 100%;
 	position: absolute;
 	text-align: center;
-	bottom: 2px;
+	bottom: 15px;
 	line-height: 30px;
 	z-index: 9999;
 }

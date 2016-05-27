@@ -247,7 +247,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .projects p {
-	width: 90%;
+	width: 82%;
 	margin: 0 auto;
 	font-family: 'Roboto';
 	font-size: 14px;

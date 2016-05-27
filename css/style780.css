@@ -320,15 +320,18 @@ input[type=checkbox]:checked + label:before {
 	width: 20%;
 	padding: 0 6px;
 	height: auto;
-	display: inline;
 }
 
 .social-pics img:first-child {
 	padding-left: 0;
+	width: 20%;
+	height: auto;
 }
 
 .social-pics img:last-child {
 	padding-right: 0;
+	width: 20%;
+	height: auto;
 }
 
 /*

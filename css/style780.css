@@ -267,10 +267,6 @@ input[type=checkbox]:checked + label:before {
 	padding: 8px 0;
 }
 
-.projects img {
-	padding: 0;
-}
-
 .projects p img {
 	width: auto;
 	height: 26px;

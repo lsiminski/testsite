@@ -318,7 +318,7 @@ input[type=checkbox]:checked + label:before {
 
 .social-pics img {
 	width: 20%;
-	padding: 6px;
+	padding: 16px 6px 0 6px;
 	height: auto;
 	display: inline;
 }

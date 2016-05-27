@@ -739,6 +739,12 @@ body.has-active-menu {
 	color: #999999;
 }
 
+.close-window img {
+	height: 14px;
+	width: auto;
+}
+
+
 .project-container {
 	width: 93%;
 	margin: 70px auto 35px auto;

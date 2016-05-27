@@ -227,9 +227,11 @@ input[type=checkbox]:checked + label:before {
 	margin-bottom: 100px;
 }
 
+/*
 .projects p {
 	color: black;
 }
+*/
 
 .projects ul {
 	list-style: none;

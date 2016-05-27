@@ -223,9 +223,11 @@ input[type=checkbox]:checked + label:before {
 	overflow: scroll;
 }
 
+/*
 .projects p {
 	color: black;
 }
+*/
 
 .projects ul {
 	list-style: none;
@@ -243,6 +245,104 @@ input[type=checkbox]:checked + label:before {
 	padding: 0 0 0 0;
 	margin: 0 0 -4px 0;
 }
+
+.projects p {
+	width: 100%;
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.4px;
+	text-align: center;
+	font-weight: 300;
+	color: #565656;
+	padding: 8px 0;
+}
+
+.projects p img {
+	width: auto;
+	height: 26px;
+	padding: 0;
+	margin: 0 0 0 15px;
+	line-height: 26px;
+	vertical-align: middle;
+}
+
+.bigger-title {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1.4px;
+	color: #1e1e1e;
+	font-weight: 700;
+	line-height: 26px;
+	vertical-align: middle;
+}
+
+.smaller-title {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 11.5px;
+	letter-spacing: 1.5px;
+	color: #1e1e1e;
+	font-weight: 700;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.lets-get {
+	width: 45%;
+	text-align: left;
+	display: inline;
+	float: left;
+	margin: 0 0 10px 0;
+	position: absolute;
+}
+
+.social-icons {
+	width: 45%;
+	text-align: right;
+	display: inline;
+	float: right;
+	margin: 0 0 10px 0;
+	position: absolute;
+}
+
+.social-icons img {
+	height: 16px;
+	width: auto;
+	padding: 0 5px;
+}
+
+.social-pics {
+	width: 100%;
+	display: inline;
+	background: yellow;
+	position: absolute;
+	left: 0;
+}
+
+.social-pics img {
+	width: 18%;
+	margin: 0 0.5%;
+	height: auto;
+	display: inline;
+}
+
+.social-pics img:first-child {
+	width: 18%;
+	margin: 0 0.5% 0 0;
+	height: auto;
+	display: inline;
+}
+
+.social-pics img:last-child {
+	width: 18%;
+	margin: 0 0 0 0.5%;
+	height: auto;
+	display: inline;
+}
+
+
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

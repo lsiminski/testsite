@@ -301,6 +301,7 @@ input[type=checkbox]:checked + label:before {
 	overflow: visible;
 	display: inline;
 	float: left;
+	padding: 0 0 15px 0;
 }
 
 .social-icons {
@@ -309,12 +310,12 @@ input[type=checkbox]:checked + label:before {
 	overflow: visible;
 	display: inline;
 	float: right;
+	padding: 0 0 15px 0;
 }
 
 .social-pics {
 	width: 100%;
 	display: inline;
-	padding-top: 15px;
 }
 
 .social-pics img {

@@ -328,7 +328,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .social-pics img {
-	width: 18;
+	width: 18%;
 	margin: 0 0.5%;
 	height: auto;
 }

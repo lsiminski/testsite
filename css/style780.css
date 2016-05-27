@@ -325,6 +325,7 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 	background: yellow;
 	position: absolute;
+	left: 0;
 }
 
 .social-pics img {

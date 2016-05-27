@@ -304,6 +304,7 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 	float: left;
 	margin: 0 0 10px 0;
+	position: absolute;
 }
 
 .social-icons {
@@ -312,6 +313,7 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 	float: right;
 	margin: 0 0 10px 0;
+	position: absolute;
 }
 
 .social-icons img {

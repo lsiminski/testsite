@@ -256,11 +256,7 @@ input[type=checkbox]:checked + label:before {
 	text-align: center;
 	font-weight: 400;
 	color: #565656;
-	padding: 8px 0;
-}
-
-.projects p:second-child {
-	padding: 30px 0 8px 0;
+	padding: 12px 0;
 }
 
 .projects p img {

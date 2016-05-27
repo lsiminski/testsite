@@ -259,7 +259,7 @@ input[type=checkbox]:checked + label:before {
 	padding: 8px 0;
 }
 
-.projects p:first-child {
+.projects p:second-child {
 	padding: 15px 0 8px 0;
 }
 

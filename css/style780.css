@@ -317,21 +317,21 @@ input[type=checkbox]:checked + label:before {
 }
 
 .social-pics img {
-	width: 20%;
 	padding: 0 6px;
-	height: auto;
+	height: 20%;
+	width: auto;
 }
 
 .social-pics img:first-child {
-	width: 20%;
 	padding: 0 6px 0 0;
-	height: auto;
+	height: 20%;
+	width: auto;
 }
 
 .social-pics img:last-child {
-	width: 20%;
 	padding: 0 0 0 6px;
-	height: auto;
+	height: 20%;
+	width: auto;
 }
 
 /*

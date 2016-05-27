@@ -264,6 +264,7 @@ input[type=checkbox]:checked + label:before {
 	text-align: justify;
 	font-weight: 400;
 	color: #565656;
+	padding: 15px 0;
 }
 
 .projects p img {

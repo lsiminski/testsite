@@ -266,6 +266,11 @@ input[type=checkbox]:checked + label:before {
 	color: #565656;
 }
 
+.projects p img {
+	width: auto;
+	height: 16px;
+}
+
 .bigger-title {
 	font-family: 'Montserrat';
 	text-transform: uppercase;

@@ -314,6 +314,7 @@ input[type=checkbox]:checked + label:before {
 .social-pics {
 	width: 100%;
 	display: inline;
+	margin-top: 15px;
 }
 
 .social-pics img {

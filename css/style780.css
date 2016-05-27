@@ -324,7 +324,6 @@ input[type=checkbox]:checked + label:before {
 	width: 100%;
 	display: inline;
 	background: yellow;
-	height: 18%;
 	position: absolute;
 }
 

@@ -313,6 +313,7 @@ input[type=checkbox]:checked + label:before {
 
 .social-pics {
 	width: 100%;
+	display: inline;
 }
 
 .social-pics img {

@@ -319,19 +319,19 @@ input[type=checkbox]:checked + label:before {
 .social-pics img {
 	padding: 0 6px;
 	height: 20%;
-	width: auto;
+	width: 20%;
 }
 
 .social-pics img:first-child {
 	padding: 0 6px 0 0;
 	height: 20%;
-	width: auto;
+	width: 20%;
 }
 
 .social-pics img:last-child {
 	padding: 0 0 0 6px;
 	height: 20%;
-	width: auto;
+	width: 20%;
 }
 
 /*

@@ -301,7 +301,6 @@ input[type=checkbox]:checked + label:before {
 .lets-get {
 	width: 45%;
 	text-align: left;
-	overflow: visible;
 	display: inline;
 	float: left;
 	padding: 0 0 10px 0;
@@ -310,7 +309,6 @@ input[type=checkbox]:checked + label:before {
 .social-icons {
 	width: 45%;
 	text-align: right;
-	overflow: visible;
 	display: inline;
 	float: right;
 	padding: 0 0 10px 0;

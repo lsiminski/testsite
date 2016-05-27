@@ -318,9 +318,17 @@ input[type=checkbox]:checked + label:before {
 
 .social-pics img {
 	width: 20%;
-	padding: 0 5px;
+	padding: 6px;
 	height: auto;
 	display: inline;
+}
+
+.social-pics img:first-child {
+	padding-left: 0;
+}
+
+.social-pics img:last-child {
+	padding-right: 0;
 }
 
 /*

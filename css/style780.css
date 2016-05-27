@@ -293,6 +293,8 @@ input[type=checkbox]:checked + label:before {
 	letter-spacing: 1.5px;
 	color: #1e1e1e;
 	font-weight: 700;
+	line-height: 16px;
+	vertical-align: middle;
 }
 
 .lets-get {
@@ -311,6 +313,12 @@ input[type=checkbox]:checked + label:before {
 	display: inline;
 	float: right;
 	padding: 0 0 10px 0;
+}
+
+.social-icons img {
+	height: 16px;
+	width: auto;
+	padding: 0 5px;
 }
 
 .social-pics {

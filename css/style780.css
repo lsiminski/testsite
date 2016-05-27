@@ -259,7 +259,7 @@ input[type=checkbox]:checked + label:before {
 	width: 100%;
 	font-family: 'Roboto';
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 30px;
 	letter-spacing: 0.4px;
 	text-align: center;
 	font-weight: 300;

@@ -295,6 +295,33 @@ input[type=checkbox]:checked + label:before {
 	font-weight: 700;
 }
 
+.lets-get {
+	width: 45%;
+	text-align: left;
+	overflow: visible;
+	display: inline;
+	float: left;
+}
+
+.social-icons {
+	width: 45%;
+	text-align: right;
+	overflow: visible;
+	display: inline;
+	float: right;
+}
+
+.social-pics {
+	width: 100%;
+}
+
+.social-pics img {
+	width: 20%;
+	padding: 0 5px;
+	height: auto;
+	display: inline;
+}
+
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
